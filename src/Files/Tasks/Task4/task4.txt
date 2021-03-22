@@ -1,0 +1,24 @@
+package Files.Tasks.Task4;
+
+private class Task4Class {
+
+    private static void main(String[] args) {
+
+    }
+
+    private static void testMethod1() {
+
+    }
+
+    private static boolean testMethod2() {
+        return false;
+    }
+
+    private static String testMethod3() {
+        return "testMethod3";
+    }
+
+    protected static double testMethod4() {
+        return 4d;
+    }
+}
