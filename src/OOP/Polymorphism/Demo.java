@@ -1,6 +1,6 @@
-package OOP;
+package OOP.Polymorphism;
 
-public class PolymorphismJava {
+public class Demo {
 
     public static void main(String[] args) {
         Animal animal = new Animal();
@@ -11,22 +11,5 @@ public class PolymorphismJava {
                 in the child class, so we have one method but two realizations  */
         animal.sleep(); // Animal is sleeping
         dog.sleep(); // Dog is sleeping
-
-
-    }
-}
-
-class Animal {
-
-    public void sleep() {
-        System.out.println("Animal is sleeping");
-    }
-}
-
-class Dog extends Animal {
-
-    @Override
-    public void sleep() {
-        System.out.println("Dog is sleeping");
     }
 }
