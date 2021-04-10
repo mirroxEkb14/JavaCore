@@ -1,6 +1,7 @@
 package Exceptions.CreateException;
 
 public class PerimeterSquare {
+
     public void getPerimeter(String data) throws SideException {
         Square square = new Square();
 

@@ -13,7 +13,7 @@ public class ListRunner {
             what the type of the element is, so Java considers it to be 'Object' type;
 
             If we use 'Object' type, we cannot use the methods of other types,
-            for instance: 'substring' - String and etc.  */
+            for instance: 'substring' - String etc.  */
 
         Object returnedValue = withoutGeneric.get(0);
 

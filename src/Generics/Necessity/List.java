@@ -1,7 +1,7 @@
 package Generics.Necessity;
 
 public class List {
-    private Object[] objects; // out list
+    private Object[] objects; // our list
     private int size;
 
     public List(int initialSize) {

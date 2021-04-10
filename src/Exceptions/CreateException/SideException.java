@@ -1,8 +1,7 @@
 package Exceptions.CreateException;
 
 public class SideException extends Exception {
-    public SideException() {
-    }
+    public SideException() {}
 
     public SideException(String message) {
         super(message);

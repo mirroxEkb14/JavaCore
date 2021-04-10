@@ -6,6 +6,9 @@ import java.io.IOException;
 public class FileRunner {
 
     public static void main(String[] args) throws IOException {
+
+        // '\' - спец. символ, экранировать с помощью '\', то есть '\\'
+
         /*                  output stream
             application ------------> file
                             input stream
