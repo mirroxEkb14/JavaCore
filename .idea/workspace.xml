@@ -2,328 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f0e53f-81e5-4e2e-be59-04ce6ba950ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/DeletionFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/PracticalTask/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/PracticalTask/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/PracticalTask/StudentComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/PassengerCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/PassengerCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Soundable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Soundable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Demo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Demo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/AnonymousClasses/Function.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/CalendarDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/CalendarDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DatesOld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DatesOld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextBD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/PracticalTask/ModuleTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/PracticalTask/ModuleTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getNextEvent1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getNextEvent1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/setDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/setDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/DurationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/DurationDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/GetNextBd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/GetNextBd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateTimeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateTimeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalTimeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalTimeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/PeriodDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/PeriodDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/ZonedDateTimeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/ZonedDateTimeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/EqualsStringPool/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/EqualsStringPool/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/EqualsStringPool/EqualsStringPoolClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/EqualsStringPool/EqualsStringPoolClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/PerimeterSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/PerimeterSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/SideException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/SideException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/MyException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/IllegalValueException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/IllegalValueException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentJournal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentJournal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/FileRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/FileRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/DecodeFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/DecodeFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/InputStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/InputStreamRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/OutputStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/OutputStreamRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/JarFileExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/JarFileExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTaskMyVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTaskMyVersion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/PracticalTask/Package1/DecodeFileRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/PracticalTask/Package1/DecodeFileRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/ReaderRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/ReaderRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/WriterRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/WriterRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task4/Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task4/Task4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task4/Task4Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task4/Task4Class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task832.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task832.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task834.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/Task834.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/task5/Task5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/task5/Task5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/task5/Task5Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/Tasks/task5/Task5Class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/ConsumerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/ConsumerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/FunctionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/FunctionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/PredicateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/PredicateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/SupplierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/SupplierDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/UnaryOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalInterfaces/UnaryOperatorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/MyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/MyInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/MyInterfaceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/DefaultMethods/MyInterfaceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Walk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/MultipleInheritance/Walk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/StaticMethods/Bunny.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/StaticMethods/Bunny.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/StaticMethods/Hop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/DefaultStaticMethods/StaticMethods/Hop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/NecessityRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/NecessityRunner$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/NecessityRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/NecessityRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/ValidatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/Necessity/ValidatorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/ElectricityConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/ElectricityConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Lamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Lamp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Switcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage1/Switcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/ElectricityConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/ElectricityConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Lamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Lamp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Radio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Switcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/FunctionalProgrammingLambda/UsingExample/Stage2/Switcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ListsTask/LinkedListTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ListsTask/LinkedListTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Archer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/Characters/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsClasses/Bow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsClasses/Bow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsClasses/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsClasses/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/MeleeWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/MeleeWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/RangeWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/RangeWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/MethodParameterization/WeaponsInterfaces/Weapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/ListGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/ListGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/ListRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Necessity/ListRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Boss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/ProducerConsumerRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/ProducerConsumerRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/CarRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/CarRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Archer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Mage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Bow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Bow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Wand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Wand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MagicWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MagicWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MeleeWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MeleeWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/RangeWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/RangeWeapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/Weapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Interfaces/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Introduction/OptionalStatements/SwitchOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Introduction/OptionalStatements/SwitchOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/DataTypesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/DataTypesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/StringsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/StringsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/ArrayListArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/ArrayListArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/CodeDesignArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/CodeDesignArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/LinkedListArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Arrays/LinkedListArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparatorDemo$NameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparatorDemo$NameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/ComparatorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/ComparableComparator/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/IteratorArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/IteratorArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/IteratorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/IteratorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/List$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/List$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/IteratorArrays/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/JavaCollectionsFrameWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/JavaCollectionsFrameWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Map/MapCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Map/MapCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/CreateOwnGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/CreateOwnGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/DequeCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/DequeCollect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/GenericsCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/GenericsCollect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/QueueCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/QueueCollect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/WildCardsCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/WildCardsCollect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Set/SetCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Set/SetCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Bus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/RacingCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/RacingCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Car/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/CarDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/CarDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Garage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/HomeWork/Task2/Garage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/Tasks/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaNet/JavaInetAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaNet/JavaInetAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/MultidimensionalArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/MultidimensionalArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/StudentTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Different/StudentTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/MinMaxAvgValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/MinMaxAvgValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/JavaRush/JavaRush1925/Task1925.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/JavaRush/JavaRush1925/Task1925.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/JavaRush/Task1016.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/JavaRush/Task1016.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/BinaryToDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/BinaryToDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/DecimalToBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/DecimalToBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/HexadecimalToDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/NumeralSystems/HexadecimalToDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/SkillFactory/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/SkillFactory/Encryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/SkillFactory/Task1164.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/SkillFactory/Task1164.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/MethodOverloading/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/MethodOverloading/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/ChessBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/ChessBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/FindOddEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/FindOddEven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/GetIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/GetIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/KPMAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/KPMAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/LinearSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/LinearSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/MinMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/MoveToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/MoveToEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/NumberCollectionToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/NumberCollectionToString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/PrintInReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/PrintInReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/QuadraticEquation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/ReverseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/SinglyLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/SinglyLinkedList$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/AnimalRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/AnimalRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/DomesticAnimals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/DomesticAnimals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/DomesticAnimalsComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module11Task/DomesticAnimalsComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar$Battery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar$Battery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar$Motor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar$Motor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCarDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/NestedClasses/ElectricalCarDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Monster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Demo/Zombie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Encapsulation/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Battle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Battle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/GiantSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/GiantSnake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Monster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Game/Zombie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Deliveryman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Deliveryman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Programmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Optionals/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Optionals/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Calculator/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_alpha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_alpha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_beta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_beta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/Vacancy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/Vacancy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/PhoneBook/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/PhoneBook/PhoneBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Serialization/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Serialization/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Serialization/SerializationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Serialization/SerializationDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Runner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Runner$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Demo/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/CollectingAndThenMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/CollectingAndThenMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/DistinctMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/DistinctMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/DropWhileMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/DropWhileMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/FilterMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/FilterMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/GroupingByMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/GroupingByMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/LimitMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/LimitMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/MapMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/MapMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/MapToMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/MapToMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/PartitioningByMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/PartitioningByMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SkipMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SkipMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SortedMethod$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SortedMethod$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SortedMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/SortedMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/TakeWhileMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/TakeWhileMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/ToCollectionMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/ToCollectionMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/ToMapMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/StreamMethods/ToMapMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/AddressInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/AddressInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/PaymentInfo$CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/PaymentInfo$CardType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/PaymentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/PaymentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Product$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Product$Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/task/OrderStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/task/OrderStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/util/AveragingBigDecimalCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft1/util/AveragingBigDecimalCollector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft2/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Eshop/expertsoft2/TestUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/People1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/People1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Sex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Sex1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Habr/Tasks9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1016.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1016.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1821/Task1821.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1821/Task1821.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1907/Task1907.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1907/Task1907.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1908/Task1908.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1908/Task1908.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1925/Task1925.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task1925/Task1925.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task2208.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/JavaRush/Task2208.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/SkillFactory/Task4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/StudentTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/Tasks/StudentTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/StringBuilder/StringBuilderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/StringBuilder/StringBuilderDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations$myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations$myThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/LatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/LatchDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/Rocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetailRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetailRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/DeadLockEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/DeadLockEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ImmutableClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/ImmutableClasses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ParallelThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/ParallelThreads.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/RunnableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/RunnableExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/StartThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/StartThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/StopThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/StopThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SynchronizedThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/SynchronizedThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/VolatileThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Threads/VolatileThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/DateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/Date/DateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaCollections/Map/MapCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollections/Map/MapCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/PrimeNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.DeletionFromArray">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Methods.BubbleSort" />
       <module name="JavaCore" />
@@ -390,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxAvgValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaTasks.Itnanru.Basis.MinMaxAvgValues" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.PracticalTask.Demo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTasks.Itnanru.Basis.*" />
+          <option name="PATTERN" value="Generics.PracticalTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.PracticalTask.GuitarStore" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.PracticalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.GuitarStore" />
         <item itemvalue="Application.DeletionFromArray" />
         <item itemvalue="Application.PrimeNumbers" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.BubbleSort (1)" />
-        <item itemvalue="Application.MinMaxAvgValues" />
       </list>
     </recent_temporary>
   </component>
@@ -450,26 +145,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1618064956781">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1618071458311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618064956781" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1618066180153">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618071458311" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618071242808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618066180153" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1618066180153">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618071242808" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1618076791603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618066180153" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1618066180153">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618076791603" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1618076791603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618066180153" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1618066180153">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618076791603" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1618076791603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618066180153" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618076791603" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1618076791603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618076791603" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618066180153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
