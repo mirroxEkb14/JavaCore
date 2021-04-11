@@ -27,8 +27,8 @@ public class DateDemo {
         long months = weeks / 4;
         long years = months / 12;
 
-        System.out.println("milliseconds: %d\nseconds: %d\nminutes: %d\nhours: %d\ndays: %d\nweeks: %d\nmoths: %d\nyears: %d".
-                formatted(milliseconds, seconds, minutes, hours, days, weeks, months, years));
+//        System.out.println("milliseconds: %d\nseconds: %d\nminutes: %d\nhours: %d\ndays: %d\nweeks: %d\nmoths: %d\nyears: %d".
+//                formatted(milliseconds, seconds, minutes, hours, days, weeks, months, years));
 
         /*  compare dates  */
         System.out.println(newDate.after(currentDate));

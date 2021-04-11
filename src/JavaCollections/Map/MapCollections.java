@@ -24,9 +24,9 @@ public class MapCollections {
         linkedHashMap.values(); // list of values
 
         /*  how to print  */
-        for (Map.Entry<String, Integer> item: linkedHashMap.entrySet()) {
-            System.out.println("Key: %s; Value: %s".formatted(item.getKey(), item.getValue()));
-        }
+//        for (Map.Entry<String, Integer> item: linkedHashMap.entrySet()) {
+//            System.out.println("Key: %s; Value: %s".formatted(item.getKey(), item.getValue()));
+//        }
 
         Map<String, Integer> treemap = new TreeMap<>(); // in alphabetical order (a, b, ...; 1, 2, ...)
         treemap.put("name1", 1);
