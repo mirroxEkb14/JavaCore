@@ -2,104 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f0e53f-81e5-4e2e-be59-04ce6ba950ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaCore_jar/JavaCore.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/PassengerCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Soundable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/AbstractClass/PracticalTask/Truck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/PracticalTask/ModuleTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/MyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/ModuleTasks/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/IllegalValueException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentJournal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/PracticalTask/StudentRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/DecodeFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/recode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/win1251.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/JarFileExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ModuleTask/ModuleTaskMyVersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/PracticalTask/Package1/DecodeFileRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/PracticalTask/Package1/decode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ListsTask/LinkedListTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Boss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/ProducerConsumerRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Queue/QueueTask/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/Set/CarRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/SkillFactory/Encryption.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/PracticalTask/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/PracticalTask/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/PracticalTask/PassengerCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/PracticalTask/Soundable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/PracticalTask/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dates/Date/PracticalTask/ModuleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ModuleTasks/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ModuleTasks/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ModuleTasks/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/PracticalTask/IllegalValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/PracticalTask/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/PracticalTask/StudentJournal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/PracticalTask/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/InputOutputStream/DecodeFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/InputOutputStream/recode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/InputOutputStream/win1251.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/JarFileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/ModuleTask/ModuleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/ModuleTask/ModuleTaskMyVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/PracticalTask/Package1/DecodeFileRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/PracticalTask/Package1/decode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/ListsTask/LinkedListTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Queue/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Queue/QueueTask/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Queue/QueueTask/ProducerConsumerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Queue/QueueTask/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Set/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Set/CarRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Different/MultidimensionalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/MinMaxAvgValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module3Tasks/Task9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/PerimeterSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/PerimeterSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/SideException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Exceptions/CreateException/SideException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/FileRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/FileRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/InputStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/InputStreamRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/OutputStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/InputOutputStream/OutputStreamRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/ReaderRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Files/WriterRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Files/ReaderWriter/WriterRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/StudentTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/PracticalTask/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Test/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Test/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Test/Programmer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/CreateException/PerimeterSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/CreateException/PerimeterSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/CreateException/SideException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/CreateException/SideException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/FileRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/FileRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/InputStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/InputOutputStream/InputStreamRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/OutputStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/InputOutputStream/OutputStreamRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/ReaderRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/ReaderWriter/ReaderRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files/WriterRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/ReaderWriter/WriterRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Necessity/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Necessity/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Necessity/ListRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Necessity/ListRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaTasks/StudentTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Different/StudentTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Methods/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/ArrayList/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/ArrayList/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Generics/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Necessity/ListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Necessity/ListGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="BubbleSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTasks.Itnanru.Basis.BubbleSort" />
       <module name="JavaCore" />
@@ -152,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaTasks.SkillFactory.Encryption" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.ArrayAndLinkedListsTheory.LinkedList.Demo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTasks.SkillFactory.*" />
+          <option name="PATTERN" value="Generics.ArrayAndLinkedListsTheory.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BubbleSort (1)" />
         <item itemvalue="Application.MinMaxAvgValues" />
         <item itemvalue="Application.MultidimensionalArrays" />
-        <item itemvalue="Application.Encryption" />
       </list>
     </recent_temporary>
   </component>

@@ -1,7 +1,7 @@
 package Generics.Necessity;
 
 public class ListGeneric<T> {
-    private final T[] objects; // out list
+    private final T[] objects; // our list
     private int size;
 
     public ListGeneric(int initialSize) {
