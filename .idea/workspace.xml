@@ -2,31 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/ArrayList/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/ArrayList/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/ArrayList/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/ArrayList/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/CollatzConjecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/TossACoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ChickenEggProgram/ChickenEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ChickenEggProgram/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/ConsoleClockTask/ConsoleClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/ConsoleClockTask/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/JoinMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/SleepMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/PracticalTask/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Generics/PracticalTask/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/PrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/PrimeNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/ArrayAndLinkedListsTheory/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Archer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Mage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/Characters/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Bow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Sword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsClasses/Wand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MagicWeapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/MeleeWeapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/RangeWeapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Generics/СlassParameterization/WeaponsInterfaces/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaNet/JavaInetAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaNet/JavaInetAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Generics/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Methods/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Methods/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_alpha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_alpha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_beta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/Parser/SqlParser_beta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/PhoneBook/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Projects/PhoneBook/PhoneBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/RunnableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/StartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/StopThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ThreadTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Generics/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/PhoneBook/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/PhoneBook/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/StartThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/StopThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ThreadTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/ThreadExecutionSpeed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunManager">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rIWVE1ojltYASyEsCAJexssUG9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.ArrayAndLinkedListsTheory.LinkedList.Demo" />
+      <option name="MAIN_CLASS_NAME" value="Threads.ThreadInterruption.ConsoleClockTask.Demo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.ArrayAndLinkedListsTheory.LinkedList.*" />
+          <option name="PATTERN" value="Threads.ThreadInterruption.ConsoleClockTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ThreadInterruption.JoinMethod" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.ThreadInterruption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ChickenEggProgram.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.ChickenEggProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.SkillFactoryTasks.Task1" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.SkillFactoryTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.SkillFactoryTasks.Task2" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.SkillFactoryTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -36,32 +142,35 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.JoinMethod" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="" />
+      <created>1618664115194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618664115194</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1795" height="240" key="GridCell.Tab.0.bottom" timestamp="1618246032606">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618246032606" />
-    <state width="1795" height="240" key="GridCell.Tab.0.center" timestamp="1618246032606">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618246032606" />
-    <state width="1795" height="240" key="GridCell.Tab.0.left" timestamp="1618246032606">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618246032606" />
-    <state width="1795" height="240" key="GridCell.Tab.0.right" timestamp="1618246032606">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618246032606" />
   </component>
 </project>

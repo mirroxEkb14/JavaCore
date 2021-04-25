@@ -127,7 +127,7 @@ public class PhoneBook {
 
     // lead our phone number to the following form: +7 ХХХ ХХХ ХХ ХХ
     public static String formatPhoneNumber(String number) {
-        String result = "+7 ХХХ ХХХ ХХ ХХ";
+        String result = "+7 xxx xxx xx xx";
         String clean = number.replaceAll("[^0-9]", ""); // remove everything except numbers
         String[] cleanArray = clean.split(""); // divide the number
         if (cleanArray.length == 11) { // if the phone number was entered correctly
@@ -135,7 +135,7 @@ public class PhoneBook {
             int[] indexValues = new int[10]; // 10 - because we have ten digits after '+7'
             int j = 0;
             for (int i = 0; i < result.length(); i++) {
-                if (result.charAt(i) == 'Х') { // if we find 'X', we save its index in the 'IndexValue' array
+                if (result.charAt(i) == 'x') { // if we find 'x', we save its index in the 'IndexValue' array
                     indexValues[j] = i;
                     j++;
                 }
