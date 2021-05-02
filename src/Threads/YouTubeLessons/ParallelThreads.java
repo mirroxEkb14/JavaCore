@@ -1,4 +1,4 @@
-package Threads;
+package Threads.YouTubeLessons;
 
 public class ParallelThreads {
     // увеличение счетчика в двух параллельно работающих потоках

@@ -1,4 +1,4 @@
-package Threads;
+package Threads.YouTubeLessons;
 
 public class VolatileThread extends Thread {
     private volatile boolean running = true;

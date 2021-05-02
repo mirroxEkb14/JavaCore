@@ -1,4 +1,4 @@
-package Threads;
+package Threads.YouTubeLessons;
 
 import java.util.Date;
 

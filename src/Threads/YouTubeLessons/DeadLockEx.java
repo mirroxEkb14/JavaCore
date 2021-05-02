@@ -1,4 +1,4 @@
-package Threads;
+package Threads.YouTubeLessons;
 
 public class DeadLockEx {
     public static final Object lock1 = new Object();

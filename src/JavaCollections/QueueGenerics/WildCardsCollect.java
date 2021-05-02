@@ -1,7 +1,5 @@
 package JavaCollections.QueueGenerics;
 
-import Threads.ParallelThreads;
-
 import java.util.ArrayList;
 import java.util.List;
 
