@@ -2,19 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads/ModuleTask/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ModuleTask/HelloThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ModuleTask/JavaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ConcurrentPackage/AtomicClasses/Task1361.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ConcurrentPackage/CollectionUseExample/CopyOnWriteCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ConcurrentPackage/CollectionUseExample/Pizzeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ConcurrentPackage/CollectionUseExample/ZooManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ConcurrentPackage/MemoryProblem/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ImmutableClass/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedThreads/SynchronizedKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedThreads/VolatileKeyword/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedThreads/VolatileKeyword/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask2/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Tasks/SkillFactoryTasks/Taks3/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/Tasks/SkillFactoryTasks/Taks3/Typer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadProblems/DeadLock/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadProblems/DeadLock/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadProblems/DeadLock/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadProblems/RaceCondition/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task2/Perimeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaCollections/QueueGenerics/WildCardsCollect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollections/QueueGenerics/WildCardsCollect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/AtomicOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/AtomicOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/DeadLockEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/DeadLockEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/ImmutableClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/ImmutableClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/ParallelThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/ParallelThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/SynchronizedThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/SynchronizedThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/VolatileThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/VolatileThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/WildCardsCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaCollections/QueueGenerics/WildCardsCollect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations$myThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/AtomicOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ChickenEggProgram/ChickenEgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ChickenEggProgram/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/LatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/CountDownLatch/RocketDetailRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/DeadLockEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ImmutableClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ModuleTask/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ModuleTask/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ModuleTask/HelloThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ModuleTask/JavaThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/ParallelThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SkillFactoryTasks/ThreadExecutionSpeed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/SynchronizedThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Threads/VolatileThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ChickenEggProgram/ChickenEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/ChickenEggProgram/ChickenEgg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ChickenEggProgram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/ThreadInterruption/ChickenEggProgram/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/CountDownLatch/LatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/CountDownLatch/LatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/CountDownLatch/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/CountDownLatch/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/CountDownLatch/RocketDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/CountDownLatch/RocketDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/CountDownLatch/RocketDetailRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/YouTubeLessons/CountDownLatch/RocketDetailRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ModuleTask/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ModuleTask/HelloThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask1/HelloThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/ModuleTask/JavaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/ModuleTask1/JavaThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/SkillFactoryTasks/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/SkillFactoryTasks/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/SkillFactoryTasks/ThreadExecutionSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/Tasks/SkillFactoryTasks/ThreadExecutionSpeed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +86,47 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Threads/ThreadTasks/SkillFactoryTasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Threads\ThreadTasks\SkillFactoryTasks" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Threads\YouTubeLessons" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Demo (1)">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.ThreadInterruption.ConsoleClockTask.Demo" />
+    <configuration name="CopyOnWriteCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ConcurrentPackage.CollectionUseExample.CopyOnWriteCollections" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Threads.ThreadInterruption.ConsoleClockTask.*" />
+          <option name="PATTERN" value="Threads.ConcurrentPackage.CollectionUseExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ConcurrentPackage.MemoryProblem.Demo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.ConcurrentPackage.MemoryProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.Tasks.ModuleTask2.Demo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Threads.Tasks.ModuleTask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.ChickenEggProgram.Main" />
+    <configuration name="Pizzeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ConcurrentPackage.CollectionUseExample.Pizzeria" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Threads.ChickenEggProgram.*" />
+          <option name="PATTERN" value="Threads.ConcurrentPackage.CollectionUseExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,25 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.SkillFactoryTasks.Task1" />
+    <configuration name="WithoutCopyOnWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Threads.ConcurrentPackage.CollectionUseExample.CopyOnWriteCollections.WithoutCopyOnWrite" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Threads.SkillFactoryTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.SkillFactoryTasks.Task2" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threads.SkillFactoryTasks.*" />
+          <option name="PATTERN" value="Threads.ConcurrentPackage.CollectionUseExample.CopyOnWriteCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,9 +176,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Pizzeria" />
+        <item itemvalue="Application.CopyOnWriteCollections" />
+        <item itemvalue="Application.WithoutCopyOnWrite" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
