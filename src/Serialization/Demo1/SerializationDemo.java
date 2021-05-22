@@ -1,4 +1,4 @@
-package Serialization;
+package Serialization.Demo1;
 
 import java.io.*;
 import java.nio.file.Path;
@@ -7,7 +7,7 @@ public class SerializationDemo {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Path path = Path.of(
-                "workspace", "java", "module", "src", "Serialization", "serialization.txt");
+                "JavaCore", "src", "Serialization", "Demo1", "serialization.txt");
         writeObject(path);
 
         try (ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(path.toFile()))) {
