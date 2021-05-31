@@ -5,13 +5,15 @@ import java.time.format.DateTimeFormatter;
 
 public class LocalDateDemo {
 
+    // immutable class
+
     public static void main(String[] args) {
         /*  set time  */
-        LocalDate localDate = LocalDate.now(); // current date (2020-12-28)
-        LocalDate givenDate = LocalDate.of(2020, 12, 28); // given date (2020-12-28)
+        java.time.LocalDate localDate = java.time.LocalDate.now(); // current date (2020-12-28)
+        java.time.LocalDate givenDate = java.time.LocalDate.of(2020, 12, 28); // given date (2020-12-28)
 
         DateTimeFormatter dtfExample = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate parsedDate = LocalDate.parse("28/12/2020", dtfExample); // 2020-12-28
+        java.time.LocalDate parsedDate = java.time.LocalDate.parse("28/12/2020", dtfExample); // 2020-12-28
 
 
         // plus or minus days/weeks/months/years

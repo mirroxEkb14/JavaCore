@@ -8,6 +8,8 @@ import java.time.temporal.ChronoUnit;
 
 public class DurationDemo {
 
+    // immutable class
+
     public static void main(String[] args) {
         /*  Duration -> hours, minutes, seconds  */
 
@@ -20,7 +22,7 @@ public class DurationDemo {
         LocalDateTime curLdt = curLd.atStartOfDay();
         LocalDateTime prevLdt = prevLd.atStartOfDay();
 
-        Duration duration = Duration.between(prevLdt, curLdt);
+        java.time.Duration duration = java.time.Duration.between(prevLdt, curLdt);
         duration.getSeconds(); // seconds
 
         long minutes = ChronoUnit.MINUTES.between(prevLdt, curLdt); // minutes

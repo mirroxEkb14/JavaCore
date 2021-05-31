@@ -6,7 +6,11 @@ import java.time.temporal.ChronoUnit;
 
 public class PeriodDemo {
 
+    // immutable class
+
     public static void main(String[] args) {
+
+        // immutable class
 
         /* Period -> years, months, days  */
 
@@ -14,7 +18,7 @@ public class PeriodDemo {
         LocalDate currentLd = LocalDate.now();
         LocalDate givenLd = LocalDate.of(2021, 3, 23);
 
-        Period period = Period.between(currentLd, givenLd);
+        java.time.Period period = java.time.Period.between(currentLd, givenLd);
         // full picture
         System.out.println(period.getYears());
         System.out.println(period.getMonths());
