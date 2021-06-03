@@ -13,3 +13,18 @@ public class Demo {
         dog.sleep(); // Dog is sleeping
     }
 }
+
+class Dog extends Animal {
+
+    @Override
+    public void sleep() {
+        System.out.println("Dog is sleeping");
+    }
+}
+
+class Animal {
+
+    public void sleep() {
+        System.out.println("Animal is sleeping");
+    }
+}
