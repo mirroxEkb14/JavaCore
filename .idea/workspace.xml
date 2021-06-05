@@ -2,67 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/AboutMainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/AbstractClassesVsInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/AbstractMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/CreateClassInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/DifferenceFromInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/ImplementsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/NecessityOfAbstractMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/StaticMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass/BasisConcepts/isFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/Advantages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InitBlocks/StaticUsualBlocks/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InitBlocks/WithConstructor1/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InitBlocks/WithConstructor2/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/util/Mark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/util/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/CarDealerShip/util/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/Webinar/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/Webinar/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/Webinar/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/Webinar/util/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/HeapAndStack/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/CalendarDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DateProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/DatesOld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextBD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/GetNextEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/PracticalTask/ModuleTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/getNextEvent1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Date/setDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/DurationDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/GetNextBd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalDateTimeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/LocalTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/PeriodDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Dates/Datetime/ZonedDateTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/OOP/Polymorphism/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClass/DifferenceFromInterfaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/CalendarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/CalendarDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/DateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/DateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/DatesOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/DatesOld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/GetNextBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/GetNextBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/GetNextEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/GetNextEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Date/PracticalTask/ModuleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/OldDateApi/PracticalTask/ModuleTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/DurationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/DurationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/GetNextBd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/GetNextBd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/LocalDateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/LocalDateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/LocalDateTimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/LocalTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/LocalTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/PeriodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/PeriodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dates/Datetime/ZonedDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dates/NewDateTimeApi/ZonedDateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphism/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphism/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Polymorphism/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphism/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction/PrimitiveDataTypes/StringsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/HeapAndStringPool/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +141,6 @@
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Child (1)" />
         <item itemvalue="Application.Child" />
-        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

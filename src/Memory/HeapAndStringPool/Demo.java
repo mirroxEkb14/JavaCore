@@ -1,21 +1,23 @@
-package Introduction.PrimitiveDataTypes;
+package Memory.HeapAndStringPool;
 
-public class StringsDemo {
+public class Demo {
 
     public static void main(String[] args) {
-        String str1 = "wasd";
-        String str2 = new String("wasd");
-        String str3 = "wasd";
 
+        /* When we have the same value (str3), Java does not make space
+           for this variable, it creates a new link to already existed memory area(String pool)
+           ("wasd" already exists in String pool(str1), so now 'str3' links to this existed
+           "wasd", new memory is not allocated)
+
+           When we create a string with "new", it creates in heap (allocates new memory space) */
+        String str1 = "wasd"; // created in pool(memory was allocated)
+        String str2 = new String("wasd"); // created in heap(memory was allocated)
+        String str3 = "wasd"; // linked to 'str1'(memory was not allocated)
+
+        // '==' operator compares objects by location in memory
+        // 'equals()' method compares by string content("wasd")
         System.out.println(str1 == str2); // false
         System.out.println(str1.equals(str2)); // true
-
-        /* when we have the same value (str3), Java does not make space
-            for this variable, it creates a new link to already existed memory area(String pool)
-            ("wasd" already exists in String pool, so now 'str3' links to this existed
-            "wasd", new memory is not allocated)
-
-            when we create a string with "new", it creates in heap (allocates new memory space)*/
         System.out.println(str1 == str3); // true
 
         // str2 were in heap, now it`s in String pool like 'str1'
