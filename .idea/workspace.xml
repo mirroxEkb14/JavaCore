@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Memory/HeapAndStack/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/VisualIVM/MemoryLeakExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/VisualIVM/STWExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Introduction/PrimitiveDataTypes/StringsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/HeapAndStringPool/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/StringsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/service/CarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,39 +62,13 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Child (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InitBlocks.WithConstructor2.Child" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InitBlocks.WithConstructor2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InitBlocks.WithConstructor1.Child" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InitBlocks.WithConstructor1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InitBlocks.StaticUsualBlocks.Demo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InitBlocks.StaticUsualBlocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.Webinar.Main" />
+      <option name="MAIN_CLASS_NAME" value="Memory.PracticalTask.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.Webinar.*" />
+          <option name="PATTERN" value="Memory.PracticalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhereRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.Tasks.JavaRush.WhereRequest" />
+    <configuration name="MemoryLeakExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memory.VisualIVM.MemoryLeakExample" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.Tasks.JavaRush.*" />
+          <option name="PATTERN" value="Memory.VisualIVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +115,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="STWExample" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memory.VisualIVM.STWExample" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Memory.VisualIVM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Child (1)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.STWExample" />
+      <item itemvalue="Application.MemoryLeakExample" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Child (1)" />
-        <item itemvalue="Application.Child" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MemoryLeakExample" />
+        <item itemvalue="Application.STWExample" />
+        <item itemvalue="Application.Child (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,5 +167,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaCore$STWExample.ic" NAME="STWExample Coverage Results" MODIFIED="1622954555539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Memory.VisualIVM.*</FILTER>
+    </SUITE>
   </component>
 </project>

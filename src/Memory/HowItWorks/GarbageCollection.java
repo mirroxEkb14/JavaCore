@@ -12,8 +12,8 @@ public class GarbageCollection {
         (JVM just checks, it may not start GC)
 
         CG has two threads:
-            Search thread - finds garbage, runs in parallel with the main thread, a
-            signal from this thread can cause GC thread to start
+            Search thread - finds garbage, runs in parallel with the main thread,
+            a signal from this thread can cause GC thread to start
             GC thread - deletes garbage, calls 'StopTheWorld'(stopping the application
             to collect garbage)
 
