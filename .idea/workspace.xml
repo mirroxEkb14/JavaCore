@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memory/VisualIVM/MemoryLeakExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memory/VisualIVM/STWExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Introduction/PrimitiveDataTypes/StringsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Stream/CarDealerShip/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/HowItWorks/GarbageCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memory/PracticalTask/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memory/PracticalTask/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +59,13 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Child (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InitBlocks.WithConstructor2.Child" />
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memory.PracticalTask.Car" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InitBlocks.WithConstructor2.*" />
+          <option name="PATTERN" value="Memory.PracticalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Child (1)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.STWExample" />
       <item itemvalue="Application.MemoryLeakExample" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Car" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MemoryLeakExample" />
         <item itemvalue="Application.STWExample" />
-        <item itemvalue="Application.Child (1)" />
       </list>
     </recent_temporary>
   </component>
