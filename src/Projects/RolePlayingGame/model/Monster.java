@@ -1,13 +1,15 @@
 package Projects.RolePlayingGame.model;
 
+import Projects.RolePlayingGame.util.MonsterKind;
+
     /*
-        This class contains all the necessary fields and methods
-        for monsters. Each monster will be inherited from this class
+        Monster is an entity, so we 'extends Entity'
      */
 
-public class Monster extends Entity {
+public abstract class Monster extends Entity {
 
-    public Monster(int hp, int force, int agility) {
-        super(hp, force, agility);
+    public Monster(MonsterKind kind) {
+        // call 'Entity' constructor
+        super(kind);
     }
 }
