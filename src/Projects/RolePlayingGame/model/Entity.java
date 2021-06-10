@@ -50,7 +50,7 @@ public abstract class Entity implements Fighter {
             name = "Mr. Goblin";
         }
 
-        // set when creating a monster(monster already has xp and gold)
+        // monster already has hp, xp and gold
         hp = 100;
         xp = 100;
         gold = 100;
@@ -64,21 +64,40 @@ public abstract class Entity implements Fighter {
         if (this.getAgility() > getRandom()) return this.getForce();
 
         // 0 otherwise(the attacker missed)
-        else return 0; // miss
+        else return 0;
     }
 
+    // returns true if the hit is succeeded,
+    // false if missed
     @Override
     public boolean hit(Entity entity) {
+        int attack = this.attack();
 
-        if (entity.isAlive()) {
-            entity.setHp(entity.getHp() - this.attack());
+        if (attack == 0) { // if missed
+            return false;
+
+        } else { // if hit
+            entity.setHp(entity.getHp() - attack);
             return true;
         }
-        return false;
     }
 
+    // print all the information about the current entity
+    @Override
+    public void printStatistic() {
+        System.out.printf("Name: %s\nCondition: %s\nForce: %d\nAgility: %d\nHP: %d\nGold: %d\n",
+                this.getName(), this.isAlive()? "Alive": "Dead", this.getForce(),
+                this.getAgility(), this.getHp(), this.getGold());
+    }
+
+    // false if character is dead, true if alive
     public boolean isAlive() {
         return hp > 0;
+    }
+
+    // false if character is alive, true if dead
+    public boolean isDead() {
+        return hp <= 0;
     }
 
     // returns a random number from 0 to 100
@@ -88,6 +107,14 @@ public abstract class Entity implements Fighter {
     }
 
     // getters and setters
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public int getHp() {
         return hp;
@@ -101,7 +128,31 @@ public abstract class Entity implements Fighter {
         return force;
     }
 
+    public void setForce(int force) {
+        this.force = force;
+    }
+
     public int getAgility() {
         return agility;
+    }
+
+    public void setAgility(int agility) {
+        this.agility = agility;
+    }
+
+    public int getXp() {
+        return xp;
+    }
+
+    public void setXp(int xp) {
+        this.xp = xp;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
     }
 }
