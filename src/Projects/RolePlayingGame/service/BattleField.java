@@ -5,17 +5,15 @@ import Projects.RolePlayingGame.model.Entity;
 import java.util.Random;
 
     /*
-        The logic of the battle:
-
-        The fight starts, two characters hit each other in an endless circle
-        (who hits is decided randomly, each of the characters has a 50% chance to hit),
+        The fight starts, two characters hit each other in an infinite loop
+        (who hits is decided randomly, who has more agility - hits with a greater chance),
         when some character dies, the winner gets xp and gold of the loser
      */
 
 public class BattleField {
 
     public void fight(Entity fighter1, Entity fighter2) {
-        System.out.println("FIGHT!\n");
+        System.out.println("\n===============================\nFIGHT!\n");
 
         int hitChance; // number from 0 to 1
         boolean hitResult; // missed or not
@@ -34,7 +32,7 @@ public class BattleField {
                             fighter2.getName(), fighter1.getHp(), fighter2.getHp());
 
                     if (fighter2.isDead()) {
-                        System.out.println("The fight ended with the victory of " + fighter1.getName());
+                        System.out.println("\nThe fight ended with the victory of " + fighter1.getName() + "\n===============================");
 
                         // fighter1 wins, he gets xp and gold of fighter2
                         fighter1.setXp(fighter1.getXp() + fighter2.getXp());
@@ -43,7 +41,7 @@ public class BattleField {
 
                 // if missed
                 } else {
-                    System.out.println(fighter1.getName() + " missed!\n");
+                    System.out.println(fighter1.getName() + " missed!");
                 }
 
             // if '1' -> fighter2 attacks
@@ -56,7 +54,7 @@ public class BattleField {
                             fighter1.getName(), fighter2.getHp(), fighter1.getHp());
 
                     if (fighter1.isDead()) {
-                        System.out.println("The fight ended with the victory of " + fighter2.getName());
+                        System.out.println("\nThe fight ended with the victory of " + fighter2.getName() + "\n===========================");
 
                         // fighter2 wins, he gets xp and gold of fighter1
                         fighter2.setXp(fighter2.getXp() + fighter1.getXp());
@@ -65,17 +63,10 @@ public class BattleField {
 
                 // if missed
                 } else {
-                    System.out.println(fighter2.getName() + " missed!\n");
+                    System.out.println(fighter2.getName() + " missed!");
                 }
             }
         }
-    }
-
-    // print all the information about one(passed) fighter to console
-    public void statisticOf(Entity entity) {
-        System.out.printf("Name: %s\nCondition: %s\nForce: %d\nAgility: %d\nHP: %d\nGold: %d\n",
-                entity.getName(), entity.isAlive()? "Alive": "Dead", entity.getForce(),
-                entity.getAgility(), entity.getHp(), entity.getGold());
     }
 
     // returns a random number - 0 or 1

@@ -42,12 +42,12 @@ public abstract class Entity implements Fighter {
         if (kind.equals(MonsterKind.SKELETON)) {
             force = 25;
             agility = 20;
-            name = "Mr. Skeleton";
+            name = "Skeleton";
 
         } else { // but a goblin has more agility
             force = 20;
             agility = 25;
-            name = "Mr. Goblin";
+            name = "Goblin";
         }
 
         // monster already has hp, xp and gold
@@ -59,12 +59,20 @@ public abstract class Entity implements Fighter {
     // method returns the amount of damage of the attacker
     @Override
     public int attack() {
+        int randomNumber = getRandom(); // get a random number
 
-        // if agility stat is greater than a random number, returns the attacker`s full strength
-        if (this.getAgility() > getRandom()) return this.getForce();
+        // if the entity agility is 20 and if a random number is generated in the range [20, 25) -> return full entity strength
+        // if the entity agility is 25 and if a random number is generated in the range [25, 35) -> return full entity strength
+        // the difference of 10 gives a greater chance for the entity with agility 25 to hit
+        if (this.getAgility() == 20) {
+            if (randomNumber >= 20 && randomNumber < 25) return this.getForce();
+            else return 0;
 
-        // 0 otherwise(the attacker missed)
-        else return 0;
+        // this.getAgility() == 25
+        } else {
+            if (randomNumber >= 25 && randomNumber < 35) return this.getForce();
+            else return 0;
+        }
     }
 
     // returns true if the hit is succeeded,
@@ -85,9 +93,9 @@ public abstract class Entity implements Fighter {
     // print all the information about the current entity
     @Override
     public void printStatistic() {
-        System.out.printf("Name: %s\nCondition: %s\nForce: %d\nAgility: %d\nHP: %d\nGold: %d\n",
+        System.out.printf("Name: %s\nCondition: %s\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\n",
                 this.getName(), this.isAlive()? "Alive": "Dead", this.getForce(),
-                this.getAgility(), this.getHp(), this.getGold());
+                this.getAgility(), this.getXp(), this.getGold());
     }
 
     // false if character is dead, true if alive
@@ -100,10 +108,10 @@ public abstract class Entity implements Fighter {
         return hp <= 0;
     }
 
-    // returns a random number from 0 to 100
+    // returns a random number [20, 35]
     public int getRandom() {
         Random random = new Random();
-        return random.nextInt(100);
+        return 20 + random.nextInt(15);
     }
 
     // getters and setters
