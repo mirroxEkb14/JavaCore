@@ -8,65 +8,72 @@ import java.util.Random;
         The fight starts, two characters hit each other in an infinite loop
         (who hits is decided randomly, who has more agility - hits with a greater chance),
         when some character dies, the winner gets xp and gold of the loser, then
-        the level of the winner is increased by 1 and the xp is decreased by 100
+        the level of the winner is increased by 1
      */
+
 
 public class BattleField {
 
-    public void fight(Entity fighter1, Entity fighter2) {
+    // the amount of monsters that the hero defeated
+    private int defeatedMonsters = 0;
+
+    public void fight(Entity hero, Entity monster) {
         System.out.println("\n===============================\nFIGHT!\n");
 
         int hitChance; // number from 0 to 1
         boolean hitResult; // missed or not
 
         // the fight lasts till one of the fighters dies
-        while (fighter1.isAlive() && fighter2.isAlive()) {
+        while (hero.isAlive() && monster.isAlive()) {
              hitChance = getRandom();
 
-            // if '0' -> fighter1 attacks
+            // if '0' -> hero attacks
             if (hitChance == 0) {
-                hitResult = fighter1.hit(fighter2);
+                hitResult = hero.hit(monster);
 
                 // if hit
                 if (hitResult) {
-                    System.out.printf("%s hits %s\n%dhp - %dhp\n\n", fighter1.getName(),
-                            fighter2.getName(), fighter1.getHp(), fighter2.getHp());
+                    System.out.printf("%s hits %s\n%dhp - %dhp\n\n", hero.getName(),
+                            monster.getName(), hero.getHp(), monster.getHp());
 
-                    if (fighter2.isDead()) {
-                        System.out.println("\nThe fight ended with the victory of " + fighter1.getName() + "\n===============================");
+                    if (monster.isDead()) {
+                        System.out.println("\nThe fight ended with the victory of " + hero.getName() + "\n===============================");
 
-                        // fighter1 wins, he gets xp and gold of fighter2, also increases his level by 1
-                        fighter1.setXp(fighter1.getXp() + fighter2.getXp());
-                        fighter1.setGold(fighter1.getGold() + fighter2.getGold());
-                        fighter1.levelUp();
+                        // hero wins, he gets xp and gold of monster, also increases his level by 1
+                        hero.setXp(hero.getXp() + monster.getXp());
+                        hero.setGold(hero.getGold() + monster.getGold());
+                        hero.levelUp();
+
+                        // increment the counter
+                        defeatedMonsters++;
                     }
 
                 // if missed
                 } else {
-                    System.out.println(fighter1.getName() + " missed!");
+                    System.out.println(hero.getName() + " missed!");
                 }
 
-            // if '1' -> fighter2 attacks
+            // if '1' -> monster attacks
             } else {
-                hitResult = fighter2.hit(fighter1);
+                hitResult = monster.hit(hero);
 
                 // if hit
                 if (hitResult) {
-                    System.out.printf("%s hits %s\n%dhp - %dhp\n\n", fighter2.getName(),
-                            fighter1.getName(), fighter2.getHp(), fighter1.getHp());
+                    System.out.printf("%s hits %s\n%dhp - %dhp\n\n", monster.getName(),
+                            hero.getName(), monster.getHp(), hero.getHp());
 
-                    if (fighter1.isDead()) {
-                        System.out.println("\nThe fight ended with the victory of " + fighter2.getName() + "\n===========================");
+                    if (hero.isDead()) {
+                        System.out.println("\nThe fight ended with the victory of " + monster.getName() + "\n===========================");
 
-                        // fighter2 wins, he gets xp and gold of fighter1, also increases his level by 1
-                        fighter2.setXp(fighter2.getXp() + fighter1.getXp());
-                        fighter2.setGold(fighter2.getGold() + fighter1.getGold());
-                        fighter2.levelUp();
+                        // monster wins, he gets xp and gold of hero, also increases his level by 1
+                        monster.setXp(monster.getXp() + hero.getXp());
+                        monster.setGold(monster.getGold() + hero.getGold());
+                        monster.levelUp();
                     }
 
                 // if missed
                 } else {
-                    System.out.println(fighter2.getName() + " missed!");
+                    System.out.println(monster.getName() + " missed!");
                 }
             }
         }
@@ -76,5 +83,10 @@ public class BattleField {
     public int getRandom() {
         Random random = new Random();
         return random.nextInt(2);
+    }
+
+    // getter
+    public int getDefeatedMonsters() {
+        return defeatedMonsters;
     }
 }

@@ -40,23 +40,54 @@ public abstract class Entity implements Fighter {
     // constructor for monster
     public Entity(MonsterKind kind) {
 
-        // skeleton has more force than a goblin
-        if (kind.equals(MonsterKind.SKELETON)) {
-            force = 25;
-            agility = 20;
-            name = "Skeleton";
-
-        } else { // but a goblin has more agility
+        // if it is a goblin
+        if (kind.equals(MonsterKind.GOBLIN)) {
+            name = "Goblin";
+            level = 1;
+            hp = 100;
             force = 20;
             agility = 25;
-            name = "Goblin";
+            xp = 100;
+            gold = 100;
+
+        // if a skeleton
+        } else if (kind.equals(MonsterKind.SKELETON)) {
+            name = "Skeleton";
+            level = 2;
+            hp = 120;
+            force = 25;
+            agility = 20;
+            xp = 200;
+            gold = 150;
+
+        // if a troll
+        } else {
+            name = "Troll";
+            level = 3;
+            hp = 150;
+            force = 35;
+            agility = 20;
+            xp = 300;
+            gold = 250;
         }
 
-        // monster already has hp, xp and gold
-        level = 0;
-        hp = 100;
-        xp = 100;
-        gold = 100;
+//        // skeleton has more force than a goblin
+//        if (kind.equals(MonsterKind.SKELETON)) {
+//            force = 25;
+//            agility = 20;
+//            name = "Skeleton";
+//
+//        } else { // but a goblin has more agility
+//            force = 20;
+//            agility = 25;
+//            name = "Goblin";
+//        }
+//
+//        // monster already has hp, xp and gold
+//        level = 0;
+//        hp = 100;
+//        xp = 100;
+//        gold = 100;
     }
 
     // method returns the amount of damage of the attacker
@@ -117,10 +148,9 @@ public abstract class Entity implements Fighter {
         return 20 + random.nextInt(15);
     }
 
-    // takes 100xp and increases the level by 1
+    // increases the level by 1
     public void levelUp() {
         level += 1;
-        xp -= 100;
     }
 
     // getters and setters

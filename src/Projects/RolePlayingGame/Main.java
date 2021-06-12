@@ -12,6 +12,13 @@ public class Main {
      *
      */
 
+
+    /*
+        All game is to defeat 3 monsters(each next monster is stronger fran the previous one)
+        With increasing of player level - increase his stats
+        In battle menu finalize the logic of the rollback in cases 'see hero' and 'buy a potion'
+     */
+
     static Player hero;
     static Monster monster;
 
@@ -37,71 +44,18 @@ public class Main {
 
                     // if user selected 'create a hero'
                     if (ifCreate(userInput)) {
-                        createUserHero(); // create a hero
+                        createHero(); // create a hero
                         mainMenu(); // recursion
 
                         // method ends...
 
                     // if to start a fight
                     } else {
-
-                        // infinite loop in case the user wants to start the battle before creating a hero,
-                        // in this case, after 'else' block(creating a hero) we will go to 'if' block
-                        while (true) {
-
-                            // first, we check if a hero is created(user cannot go to fight without a hero)
-                            if (hero != null) {
-
-                                System.out.print("\nChoose your enemy: Skeleton, Goblin\n- ");
-                                userInput = scanner.nextLine();
-
-                                // infinite loop for user to select his enemy
-                                while (true) {
-
-                                    // check the correctness of user input
-                                    if (skeletonOrGoblin(userInput)) {
-
-                                        // see who exactly the user wants as an enemy
-                                        if (isSkeleton(userInput)) {
-                                            monster = new Skeleton(); // create a skeleton
-
-                                            // if a goblin
-                                        } else {
-                                            monster = new Goblin(); // create a goblin
-                                        }
-
-                                        break; // leave 'while' loop
-
-                                        // if incorrect input
-                                    } else {
-                                        System.out.print("\nOnly either a skeleton or a goblin can be your enemies\n- ");
-                                        userInput = scanner.nextLine();
-
-                                        // if the user wants to stop the game
-                                        if (ifExit(userInput)) stopGame();
-                                    }
-                                }
-
-                                // a place where fantasy characters will fight
-                                BattleField battleField = new BattleField();
-                                battleField.fight(hero, monster);
-
-                                // print user`s hero statistic
-                                System.out.printf("\nThe statistic of '%s' fighter:\n", hero.getName());
-                                hero.printStatistic();
-
-                                break; // the game is over
-
-                                // if the user wants to start a fight when he does not have a hero
-                            } else {
-                                System.out.println("\nYou need to create a hero");
-                                createUserHero();
-                            }
-                        }
+                        battleMenu();
                     }
                     break; // leave 'while' loop
 
-                    // if user entered something unclear
+                // if user entered something unclear
                 } else {
                     System.out.print("\nUnknown command\n- ");
                     userInput = scanner.nextLine();
@@ -111,14 +65,92 @@ public class Main {
                 }
             }
 
-            // if wants
+        // if wants
         } else {
             stopGame();
         }
     }
 
+    // when battle started
+    public static void battleMenu() {
+
+        // take user input
+        Scanner scanner = new Scanner(System.in);
+        String userInput;
+
+        // infinite loop in case the user wants to start the battle before creating a hero,
+        // in this case, after 'else' block(creating a hero) we will go to 'if' block
+        while (true) {
+
+            // first, we check if a hero is created(user cannot go to fight without a hero)
+            if (hero != null) {
+
+                // a place where fantasy characters will fight
+                BattleField battleField = new BattleField();
+
+                // create a 1 level monster
+                createMonster(battleField.getDefeatedMonsters());
+
+                // FIGHT!
+                battleField.fight(hero, monster);
+
+                // after the fight ask the user to continue fighting, see hero statistic or drink potion
+                System.out.print("\nYou won one monster, two left\n- Continue fighting\n- See hero\n- Buy a potion\n\n- ");
+                userInput = scanner.nextLine();
+
+                // check if the user wants to leave the game
+                if (!ifExit(userInput)) {
+
+                    while(true) {
+                        // check the correctness of user input
+                        if (ContinueOrSeeOrPotion(userInput)) {
+
+                            // if the user wants to keep fighting
+                            if (ifContinue(userInput)) {
+
+                                // create a 2 level monster
+                                createMonster(battleField.getDefeatedMonsters());
+
+                                // FIGHT!
+                                battleField.fight(hero, monster);
+
+                            // if the user wants to see statistic
+                            } else if (ifSee(userInput)) {
+                                printHeroStatistic();
+
+                            // buy a potion
+                            } else {
+
+                            }
+
+                            break; // leave 'while' loop
+
+                        // if incorrect input
+                        } else {
+                            System.out.println("\nYou can either continue fighting or see your hero statistic, or buy a potion:");
+                            userInput = scanner.nextLine();
+
+                            if (ifExit(userInput)) stopGame();
+                        }
+                    }
+
+                // if the user quits the game
+                } else {
+                    stopGame();
+                }
+
+                break; // the game is over
+
+                // if the user wants to start a fight when he does not have a hero
+            } else {
+                System.out.println("\nYou need to create a hero");
+                createHero();
+            }
+        }
+    }
+
     // method asks user for nick and main stat, creates a hero
-    public static void createUserHero() {
+    public static void createHero() {
         Scanner scanner = new Scanner(System.in); // read user input
 
         // check if a hero already exists
@@ -128,7 +160,7 @@ public class Main {
             // if the answer is 'yes', set existed hero to zero and create a new one
             if (isYes(scanner.nextLine())) {
                 hero = null;
-                createUserHero(); // recursion
+                createHero(); // recursion
             }
             System.out.println(); // print space
 
@@ -164,7 +196,7 @@ public class Main {
 
                             break; // leave 'while' loop
 
-                            // if user entered unavailable stats
+                        // if user entered unavailable stats
                         } else {
                             // take user input again
                             System.out.print("\nSuch a stat is unavailable. Try again:\n- ");
@@ -175,16 +207,39 @@ public class Main {
                         }
                     }
 
-                    // instead of entering stat user wants to stop the game
+                // instead of entering stat user wants to stop the game
                 } else {
                     stopGame();
                 }
 
-                // instead of entering name user wants to stop the game
+            // instead of entering name user wants to stop the game
             } else {
                 stopGame();
             }
         }
+    }
+
+    // creates a monster for the user
+    public static void createMonster(int defeatedMonsters) {
+
+        // if it is the first battle
+        if (defeatedMonsters == 0) {
+            monster = new Goblin();
+
+        // if the user defeated goblin
+        } else if (defeatedMonsters == 1) {
+            monster = new Skeleton();
+
+        // if it is the last round
+        } else {
+            monster = new Troll();
+        }
+    }
+
+    // print user`s hero statistic
+    public static void printHeroStatistic() {
+        System.out.printf("\nThe statistic of '%s' fighter:\n", hero.getName());
+        hero.printStatistic();
     }
 
     // stops the program
@@ -211,6 +266,7 @@ public class Main {
         return userInput.equalsIgnoreCase("start a fight") ||
                 userInput.equalsIgnoreCase("a fight") ||
                 userInput.equalsIgnoreCase("fight") ||
+                userInput.equalsIgnoreCase("fight!") ||
                 userInput.equalsIgnoreCase("start") ||
                 userInput.equalsIgnoreCase("create a hero") ||
                 userInput.equalsIgnoreCase("a hero") ||
@@ -226,17 +282,6 @@ public class Main {
                 userInput.equalsIgnoreCase("create");
     }
 
-    // returns true if the user selected a skeleton or a goblin
-    public static boolean skeletonOrGoblin(String userInput) {
-        return userInput.equalsIgnoreCase("skeleton") ||
-                userInput.equalsIgnoreCase("goblin");
-    }
-
-    // true if skeleton
-    public static boolean isSkeleton(String userInput) {
-        return userInput.equalsIgnoreCase("skeleton");
-    }
-
     public static boolean isYes(String userInput) {
         return userInput.equalsIgnoreCase("yes") ||
                 userInput.equalsIgnoreCase("yeah") ||
@@ -244,5 +289,46 @@ public class Main {
                 userInput.equalsIgnoreCase("ofcourse") ||
                 userInput.equalsIgnoreCase("create") ||
                 userInput.equalsIgnoreCase("create a hero");
+    }
+
+    // after defeating a monster the user can select what to do next
+    public static boolean ContinueOrSeeOrPotion(String userInput) {
+        return userInput.equalsIgnoreCase("continue") ||
+                userInput.equalsIgnoreCase("go on") ||
+                userInput.equalsIgnoreCase("go") ||
+                userInput.equalsIgnoreCase("let`s go") ||
+                userInput.equalsIgnoreCase("lets go") ||
+                userInput.equalsIgnoreCase("let`s go on") ||
+                userInput.equalsIgnoreCase("lets go on") ||
+                userInput.equalsIgnoreCase("fight") ||
+                userInput.equalsIgnoreCase("fight!") ||
+                userInput.equalsIgnoreCase("see") ||
+                userInput.equalsIgnoreCase("see hero") ||
+                userInput.equalsIgnoreCase("hero") ||
+                userInput.equalsIgnoreCase("potion") ||
+                userInput.equalsIgnoreCase("buy a potion") ||
+                userInput.equalsIgnoreCase("buy potion") ||
+                userInput.equalsIgnoreCase("buy") ||
+                userInput.equalsIgnoreCase("to buy");
+    }
+
+    // true -> if the user wants to continue fighting
+    public static boolean ifContinue(String userInput) {
+        return userInput.equalsIgnoreCase("continue") ||
+                userInput.equalsIgnoreCase("go on") ||
+                userInput.equalsIgnoreCase("go") ||
+                userInput.equalsIgnoreCase("let`s go") ||
+                userInput.equalsIgnoreCase("lets go") ||
+                userInput.equalsIgnoreCase("let`s go on") ||
+                userInput.equalsIgnoreCase("lets go on") ||
+                userInput.equalsIgnoreCase("fight") ||
+                userInput.equalsIgnoreCase("fight!");
+    }
+
+    // true -> if the user wants to see his hero statistic
+    public static boolean ifSee(String userInput) {
+        return userInput.equalsIgnoreCase("see") ||
+                userInput.equalsIgnoreCase("see hero") ||
+                userInput.equalsIgnoreCase("hero");
     }
 }
