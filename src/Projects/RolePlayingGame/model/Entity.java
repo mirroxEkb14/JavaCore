@@ -9,6 +9,7 @@ import java.util.Random;
 public abstract class Entity implements Fighter {
 
     private String name;
+    private int level;
     private int hp;
     private int force;
     private int agility;
@@ -30,6 +31,7 @@ public abstract class Entity implements Fighter {
 
         // these are default values, when a player has just started the game
         this.name = name;
+        level = 0;
         hp = 100;
         xp = 0;
         gold = 0;
@@ -51,6 +53,7 @@ public abstract class Entity implements Fighter {
         }
 
         // monster already has hp, xp and gold
+        level = 0;
         hp = 100;
         xp = 100;
         gold = 100;
@@ -93,8 +96,8 @@ public abstract class Entity implements Fighter {
     // print all the information about the current entity
     @Override
     public void printStatistic() {
-        System.out.printf("Name: %s\nCondition: %s\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\n",
-                this.getName(), this.isAlive()? "Alive": "Dead", this.getForce(),
+        System.out.printf("Name: %s\nLevel: %d\nCondition: %s\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\n",
+                this.getName(), this.getLevel(), this.isAlive()? "Alive": "Dead", this.getForce(),
                 this.getAgility(), this.getXp(), this.getGold());
     }
 
@@ -114,6 +117,12 @@ public abstract class Entity implements Fighter {
         return 20 + random.nextInt(15);
     }
 
+    // takes 100xp and increases the level by 1
+    public void levelUp() {
+        level += 1;
+        xp -= 100;
+    }
+
     // getters and setters
 
     public String getName() {
@@ -122,6 +131,10 @@ public abstract class Entity implements Fighter {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getLevel() {
+        return level;
     }
 
     public int getHp() {

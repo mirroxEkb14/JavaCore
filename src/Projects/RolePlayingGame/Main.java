@@ -87,7 +87,7 @@ public class Main {
                                 battleField.fight(hero, monster);
 
                                 // print user`s hero statistic
-                                System.out.println("\nThe statistic of your fighter:");
+                                System.out.printf("\nThe statistic of '%s' fighter:\n", hero.getName());
                                 hero.printStatistic();
 
                                 break; // the game is over

@@ -7,7 +7,8 @@ import java.util.Random;
     /*
         The fight starts, two characters hit each other in an infinite loop
         (who hits is decided randomly, who has more agility - hits with a greater chance),
-        when some character dies, the winner gets xp and gold of the loser
+        when some character dies, the winner gets xp and gold of the loser, then
+        the level of the winner is increased by 1 and the xp is decreased by 100
      */
 
 public class BattleField {
@@ -34,9 +35,10 @@ public class BattleField {
                     if (fighter2.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + fighter1.getName() + "\n===============================");
 
-                        // fighter1 wins, he gets xp and gold of fighter2
+                        // fighter1 wins, he gets xp and gold of fighter2, also increases his level by 1
                         fighter1.setXp(fighter1.getXp() + fighter2.getXp());
                         fighter1.setGold(fighter1.getGold() + fighter2.getGold());
+                        fighter1.levelUp();
                     }
 
                 // if missed
@@ -56,9 +58,10 @@ public class BattleField {
                     if (fighter1.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + fighter2.getName() + "\n===========================");
 
-                        // fighter2 wins, he gets xp and gold of fighter1
+                        // fighter2 wins, he gets xp and gold of fighter1, also increases his level by 1
                         fighter2.setXp(fighter2.getXp() + fighter1.getXp());
                         fighter2.setGold(fighter2.getGold() + fighter1.getGold());
+                        fighter2.levelUp();
                     }
 
                 // if missed
