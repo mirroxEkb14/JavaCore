@@ -70,24 +70,6 @@ public abstract class Entity implements Fighter {
             xp = 300;
             gold = 250;
         }
-
-//        // skeleton has more force than a goblin
-//        if (kind.equals(MonsterKind.SKELETON)) {
-//            force = 25;
-//            agility = 20;
-//            name = "Skeleton";
-//
-//        } else { // but a goblin has more agility
-//            force = 20;
-//            agility = 25;
-//            name = "Goblin";
-//        }
-//
-//        // monster already has hp, xp and gold
-//        level = 0;
-//        hp = 100;
-//        xp = 100;
-//        gold = 100;
     }
 
     // method returns the amount of damage of the attacker
@@ -98,15 +80,19 @@ public abstract class Entity implements Fighter {
         // if the entity agility is 20 and if a random number is generated in the range [20, 25) -> return full entity strength
         // if the entity agility is 25 and if a random number is generated in the range [25, 35) -> return full entity strength
         // the difference of 10 gives a greater chance for the entity with agility 25 to hit
-        if (this.getAgility() == 20) {
-            if (randomNumber >= 20 && randomNumber < 25) return this.getForce();
-            else return 0;
+//        if (this.getAgility() == 20) {
+//            if (randomNumber >= 20 && randomNumber < 25) return this.getForce();
+//            else return 0;
+//
+//        // this.getAgility() == 25
+//        } else {
+//            if (randomNumber >= 25 && randomNumber < 35) return this.getForce();
+//            else return 0;
+//        }
 
-        // this.getAgility() == 25
-        } else {
-            if (randomNumber >= 25 && randomNumber < 35) return this.getForce();
-            else return 0;
-        }
+        // if the random number is greater or equals to the current entity agility AND the random number is greater than
+        // the current agility plus ten, return the full entity strength, 0 otherwise(miss)
+        return  randomNumber >= getAgility() && randomNumber < (getAgility() + 10) ? getForce() : 0;
     }
 
     // returns true if the hit is succeeded,
@@ -148,9 +134,20 @@ public abstract class Entity implements Fighter {
         return 20 + random.nextInt(15);
     }
 
-    // increases the level by 1
+    // increases the level, taking into account the amount of XP
+    // with increasing hero level, we increase his stats
     public void levelUp() {
-        level += 1;
+        int currentXp = getXp();
+
+        level += currentXp - (currentXp / 100 * 99); // decrease 99% from XP
+
+        // increase the stats by 20%
+        float currentForce = getForce(); // 'float' because when we divide by 100 we get a float number
+        force = Math.round(currentForce + (currentForce / 100 * 20));
+
+
+        float currentAgility = getAgility();
+        agility = Math.round(currentAgility + (currentAgility / 100 * 20));
     }
 
     // getters and setters

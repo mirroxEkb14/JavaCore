@@ -14,9 +14,15 @@ public class Main {
 
 
     /*
-        All game is to defeat 3 monsters(each next monster is stronger fran the previous one)
-        With increasing of player level - increase his stats
-        In battle menu finalize the logic of the rollback in cases 'see hero' and 'buy a potion'
+        Questions:
+            1. Do I need to create static StringBuilder for all methods
+     */
+
+    /*
+        To add:
+            1. potion
+            2. hill logic
+            3. Merchant 
      */
 
     static Player hero;
@@ -51,7 +57,17 @@ public class Main {
 
                     // if to start a fight
                     } else {
-                        battleMenu();
+
+                        // check if the hero exists
+                        if (ifHeroExists(hero)) {
+                            battleMenu();
+
+                        // if the hero does not exist yet
+                        } else {
+                            System.out.println("\nYou need to create a hero first");
+                            createHero();
+                            mainMenu(); // recursion
+                        }
                     }
                     break; // leave 'while' loop
 
@@ -71,80 +87,92 @@ public class Main {
         }
     }
 
-    // when battle started
+    // when the battle started
     public static void battleMenu() {
+
+        // a place where fantasy characters will fight
+        final BattleField battleField = new BattleField();
+
+        // when we get into this for the first time(from main menu), the flag is true, in the first
+        // 'while' loop 'if' block is performed firstly, then the other logic, but if the user wins the fight,
+        // and then if he selects 'see hero' or 'buy a potion', we set this variable to false, and after that
+        // we get into the first 'while' loop, where the 'if' block does not perform
+        boolean flag = true;
 
         // take user input
         Scanner scanner = new Scanner(System.in);
         String userInput;
 
-        // infinite loop in case the user wants to start the battle before creating a hero,
+        // infinite loop in case the user wants to start the battle before creating a hero
         // in this case, after 'else' block(creating a hero) we will go to 'if' block
         while (true) {
 
-            // first, we check if a hero is created(user cannot go to fight without a hero)
-            if (hero != null) {
+            // before the battle we check if all the monsters(3) are defeated
+            if (battleField.getDefeatedMonsters() == 3) {
+                System.out.println("\nYou defeated all the monsters\nThe game is passed.");
+                break; // finish the method
 
-                // a place where fantasy characters will fight
-                BattleField battleField = new BattleField();
-
-                // create a 1 level monster
+            // if it is the first fight('mainMenu' method calls or the user entered 'continue fighting')
+            } else if (flag) {
+                // create a monster
                 createMonster(battleField.getDefeatedMonsters());
 
                 // FIGHT!
                 battleField.fight(hero, monster);
+            }
 
-                // after the fight ask the user to continue fighting, see hero statistic or drink potion
-                System.out.print("\nYou won one monster, two left\n- Continue fighting\n- See hero\n- Buy a potion\n\n- ");
-                userInput = scanner.nextLine();
+            // if the hero fell
+            if (hero.isDead()) {
+                System.out.println("\nYou died bravely\nThe game is over.");
+                break; // finish the method
+            }
 
-                // check if the user wants to leave the game
-                if (!ifExit(userInput)) {
+            // after the fight ask the user to continue fighting, see his hero statistic or drink potion
+            System.out.printf("\nYou won %d %s, %d left\n- Continue fighting\n- See hero\n- Buy a potion\n\n- ",
+                    battleField.getDefeatedMonsters(), battleField.getDefeatedMonsters() == 1? "monster": "monsters",
+                    3 - battleField.getDefeatedMonsters());
 
-                    while(true) {
-                        // check the correctness of user input
-                        if (ContinueOrSeeOrPotion(userInput)) {
+            userInput = scanner.nextLine(); // read input data
 
-                            // if the user wants to keep fighting
-                            if (ifContinue(userInput)) {
+            // check if the user wants to leave the game
+            if (!ifExit(userInput)) {
 
-                                // create a 2 level monster
-                                createMonster(battleField.getDefeatedMonsters());
+                while(true) {
+                    // check the correctness of user input
+                    if (ContinueOrSeeOrPotion(userInput)) {
 
-                                // FIGHT!
-                                battleField.fight(hero, monster);
+                        // if the user wants to keep fighting
+                        if (ifContinue(userInput)) {
+                            flag = true;
+                            break; // leave this 'while' loop and get to the first 'while' loop
 
-                            // if the user wants to see statistic
-                            } else if (ifSee(userInput)) {
-                                printHeroStatistic();
+                        // if the user wants to see statistic
+                        } else if (ifSee(userInput)) {
+                            flag = false;
+                            printHeroStatistic();
+                            break; // get to the first 'while' loop
 
-                            // buy a potion
-                            } else {
-
-                            }
-
-                            break; // leave 'while' loop
-
-                        // if incorrect input
+                        // buy a potion
                         } else {
-                            System.out.println("\nYou can either continue fighting or see your hero statistic, or buy a potion:");
-                            userInput = scanner.nextLine();
+                            flag = false;
 
-                            if (ifExit(userInput)) stopGame();
+                            // ...
                         }
-                    }
 
-                // if the user quits the game
-                } else {
-                    stopGame();
+                        break; // leave 'while' loop
+
+                    // if incorrect input
+                    } else {
+                        System.out.print("\nYou can either continue fighting or see your hero statistic, or buy a potion\n- ");
+                        userInput = scanner.nextLine();
+
+                        if (ifExit(userInput)) stopGame();
+                    }
                 }
 
-                break; // the game is over
-
-                // if the user wants to start a fight when he does not have a hero
+            // if the user quits the game
             } else {
-                System.out.println("\nYou need to create a hero");
-                createHero();
+                stopGame();
             }
         }
     }
@@ -234,6 +262,11 @@ public class Main {
         } else {
             monster = new Troll();
         }
+    }
+
+    // true -> if the hero exists, false otherwise
+    public static boolean ifHeroExists(Player hero) {
+        return hero != null;
     }
 
     // print user`s hero statistic
