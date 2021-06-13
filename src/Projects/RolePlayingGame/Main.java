@@ -22,7 +22,7 @@ public class Main {
         To add:
             1. potion
             2. hill logic
-            3. Merchant 
+            3. Merchant
      */
 
     static Player hero;
@@ -38,7 +38,7 @@ public class Main {
 
         // take user input
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Main menu\n- Start a fight\n- Create a hero\n\n- ");
+        System.out.print("Main menu\n- Go to Twilight Forest\n- Create a hero\n\n- ");
         String userInput = scanner.nextLine();
 
         // check if user wants to stop the game
@@ -62,11 +62,15 @@ public class Main {
                         if (ifHeroExists(hero)) {
                             battleMenu();
 
+                            // method ends...
+
                         // if the hero does not exist yet
                         } else {
                             System.out.println("\nYou need to create a hero first");
                             createHero();
                             mainMenu(); // recursion
+
+                            // method ends...
                         }
                     }
                     break; // leave 'while' loop
@@ -87,7 +91,7 @@ public class Main {
         }
     }
 
-    // when the battle started
+    // when the battle starts
     public static void battleMenu() {
 
         // a place where fantasy characters will fight
@@ -156,7 +160,10 @@ public class Main {
                         } else {
                             flag = false;
 
-                            // ...
+                            // create a merchant who sells healing potions
+                            Merchant merchant = new Merchant();
+
+                            merchant.trade(hero.getGold());
                         }
 
                         break; // leave 'while' loop

@@ -8,8 +8,14 @@ import Projects.RolePlayingGame.util.PlayerKind;
 
 public abstract class Player extends Entity {
 
+    HealingPotion potion;
+
     public Player(String name, PlayerKind kind) {
         // call 'Entity' constructor
         super(name, kind);
+    }
+
+    public HealingPotion getPotion() {
+        return potion;
     }
 }
