@@ -76,23 +76,11 @@ public abstract class Entity implements Fighter {
     @Override
     public int attack() {
         int randomNumber = getRandom(); // get a random number
-
-        // if the entity agility is 20 and if a random number is generated in the range [20, 25) -> return full entity strength
-        // if the entity agility is 25 and if a random number is generated in the range [25, 35) -> return full entity strength
-        // the difference of 10 gives a greater chance for the entity with agility 25 to hit
-//        if (this.getAgility() == 20) {
-//            if (randomNumber >= 20 && randomNumber < 25) return this.getForce();
-//            else return 0;
-//
-//        // this.getAgility() == 25
-//        } else {
-//            if (randomNumber >= 25 && randomNumber < 35) return this.getForce();
-//            else return 0;
-//        }
+        int currentAgility = getAgility(); // get agility
 
         // if the random number is greater or equals to the current entity agility AND the random number is greater than
         // the current agility plus ten, return the full entity strength, 0 otherwise(miss)
-        return  randomNumber >= getAgility() && randomNumber < (getAgility() + 10) ? getForce() : 0;
+        return  randomNumber >= currentAgility && randomNumber < (currentAgility + 10) ? getForce() : 0;
     }
 
     // returns true if the hit is succeeded,

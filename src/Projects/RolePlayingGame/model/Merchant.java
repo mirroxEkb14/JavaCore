@@ -9,32 +9,48 @@ import java.util.Random;
 
 public class Merchant {
 
+    // determines either the merchant is available or not
     private final boolean isAtWork;
 
-    // set 'isAtWork' variable randomly, fifty-fifty
-    public Merchant() {
-        Random random = new Random();
+    // his price for one potion
+    private final int price = 100;
 
-        isAtWork = random.nextBoolean();
+    // set 'isAtWork' variable
+    public Merchant() {
+        isAtWork = getRandom();
     }
 
-    public HealingPotion trade(int gold) {
+    // returns a random boolean value, fifty-fifty
+    private boolean getRandom() {
+        Random random = new Random();
+        return random.nextBoolean();
+    }
+
+    // the hero passes his gold and buys a potion(is he has enough gold and the merchant is at work)
+    public HealingPotion trade(Player hero) {
 
         // check if the trader is here(get into this 'if' block if 'isArWork' == false)
         if (!isAtWork) {
-            System.out.println("The Merchant is not here");
+            System.out.println("\nThe Merchant is not here");
 
         // one potion costs 100 gold
-        } else if (gold < 100) {
+        } else if (hero.getGold() < price) {
             System.out.println("\nNot enough gold!");
 
         // if the merchant is here and the hero has enough gold
         } else {
-            return new HealingPotion();
+            hero.setGold(hero.getGold() - price); // decrease the amount of hero gold by the potion price
+            System.out.println("\nThanks for buying, see you");
+            return new HealingPotion(); // the result of the trade
         }
 
         // if the merchant is not here or the hero does not have enough gold
         return null;
+    }
+
+    // getter
+    public int getPrice() {
+        return price;
     }
 
 }

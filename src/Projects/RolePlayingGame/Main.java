@@ -97,6 +97,9 @@ public class Main {
         // a place where fantasy characters will fight
         final BattleField battleField = new BattleField();
 
+        // create a merchant who sells healing potions
+        Merchant merchant = new Merchant();
+
         // when we get into this for the first time(from main menu), the flag is true, in the first
         // 'while' loop 'if' block is performed firstly, then the other logic, but if the user wins the fight,
         // and then if he selects 'see hero' or 'buy a potion', we set this variable to false, and after that
@@ -132,7 +135,7 @@ public class Main {
             }
 
             // after the fight ask the user to continue fighting, see his hero statistic or drink potion
-            System.out.printf("\nYou won %d %s, %d left\n- Continue fighting\n- See hero\n- Buy a potion\n\n- ",
+            System.out.printf("\nYou won %d %s, %d left\n- Continue fighting\n- See a hero\n- Drink potion\n- Buy a potion\n\n- ",
                     battleField.getDefeatedMonsters(), battleField.getDefeatedMonsters() == 1? "monster": "monsters",
                     3 - battleField.getDefeatedMonsters());
 
@@ -143,7 +146,7 @@ public class Main {
 
                 while(true) {
                     // check the correctness of user input
-                    if (ContinueOrSeeOrPotion(userInput)) {
+                    if (ContinueOrSeeOrDrinkOrBuy(userInput)) {
 
                         // if the user wants to keep fighting
                         if (ifContinue(userInput)) {
@@ -156,14 +159,21 @@ public class Main {
                             printHeroStatistic();
                             break; // get to the first 'while' loop
 
+                        // try to drink a potion
+                        } else if (ifDrink(userInput)) {
+
+
                         // buy a potion
                         } else {
                             flag = false;
 
-                            // create a merchant who sells healing potions
-                            Merchant merchant = new Merchant();
+                            // buy a potion, can return 'null'
+                           HealingPotion potion = merchant.trade(hero);
 
-                            merchant.trade(hero.getGold());
+                           // check if the hero managed to buy a potion
+                            if (potion != null) hero.setPotion(potion); // now the hero has a healing potion
+
+                            // method ends...
                         }
 
                         break; // leave 'while' loop
@@ -332,7 +342,7 @@ public class Main {
     }
 
     // after defeating a monster the user can select what to do next
-    public static boolean ContinueOrSeeOrPotion(String userInput) {
+    public static boolean ContinueOrSeeOrDrinkOrBuy(String userInput) {
         return userInput.equalsIgnoreCase("continue") ||
                 userInput.equalsIgnoreCase("go on") ||
                 userInput.equalsIgnoreCase("go") ||
@@ -345,7 +355,9 @@ public class Main {
                 userInput.equalsIgnoreCase("see") ||
                 userInput.equalsIgnoreCase("see hero") ||
                 userInput.equalsIgnoreCase("hero") ||
-                userInput.equalsIgnoreCase("potion") ||
+                userInput.equalsIgnoreCase("heal") ||
+                userInput.equalsIgnoreCase("drink") ||
+                userInput.equalsIgnoreCase("drink potion") ||
                 userInput.equalsIgnoreCase("buy a potion") ||
                 userInput.equalsIgnoreCase("buy potion") ||
                 userInput.equalsIgnoreCase("buy") ||
@@ -370,5 +382,11 @@ public class Main {
         return userInput.equalsIgnoreCase("see") ||
                 userInput.equalsIgnoreCase("see hero") ||
                 userInput.equalsIgnoreCase("hero");
+    }
+
+    public static boolean ifDrink(String userInput) {
+        return userInput.equalsIgnoreCase("heal") ||
+                userInput.equalsIgnoreCase("drink") ||
+                userInput.equalsIgnoreCase("drink potion");
     }
 }
