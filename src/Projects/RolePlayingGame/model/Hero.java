@@ -61,13 +61,13 @@ public class Hero extends Entity {
 
     // print all the information about the hero
     public void printStatistic() {
-        System.out.printf("Name: %s\nLevel: %d\nCondition: %s\nMax HP: %d\nCurrent HP: %d\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\nPotion: %d\n",
+        System.out.printf("Name: %s\nLevel: %d\nCondition: %s\nMax HP: %d\nCurrent HP: %d\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\nPotions: %d\n",
                 this.getName(), this.getLevel(), this.isAlive()? "Alive": "Dead", maxHP, this.getHp(), this.getForce(),
                 this.getAgility(), this.getXp(), this.getGold(), potions.size());
     }
 
     // setter
     public void setPotion(HealingPotion potion) {
-        potions.add(potion);
+        if (potion != null) potions.add(potion); // if the user was able to buy a potion
     }
 }

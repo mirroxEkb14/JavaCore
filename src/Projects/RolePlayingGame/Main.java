@@ -309,7 +309,7 @@ public class Main {
 
     // print user`s hero statistic
     public static void printHeroStatistic() {
-        System.out.printf("\nThe statistic of '%s' fighter:\n", hero.getName());
+        System.out.printf("\nThe statistic of the '%s' fighter:\n", hero.getName());
         hero.printStatistic();
     }
 
