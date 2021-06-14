@@ -1,14 +1,15 @@
 package Projects.RolePlayingGame.service;
 
-import Projects.RolePlayingGame.model.Entity;
+import Projects.RolePlayingGame.model.Hero;
+import Projects.RolePlayingGame.model.Monster;
 
 import java.util.Random;
 
-    /*
-        The fight starts, two characters hit each other in an infinite loop
-        (who hits is decided randomly, who has more agility - hits with a greater chance),
-        when some character dies, the winner gets xp and gold of the loser, then
-        the level of the winner is increased by 1
+    /**
+     * The fight starts, two characters hit each other in an infinite loop
+     * (who hits is decided randomly, who has more agility - hits with a greater chance),
+     * when some character dies, the winner gets xp and gold of the loser, then if it is
+     * a hero, his level is increased by 1
      */
 
 
@@ -17,7 +18,7 @@ public class BattleField {
     // the amount of monsters that the hero defeated
     private int defeatedMonsters = 0;
 
-    public void fight(Entity hero, Entity monster) {
+    public void fight(Hero hero, Monster monster) {
         System.out.println("\n===============================\nFIGHT!\n");
 
         int hitChance; // number from 0 to 1
@@ -36,13 +37,14 @@ public class BattleField {
                     System.out.printf("%s hits %s\n%dhp - %dhp\n\n", hero.getName(),
                             monster.getName(), hero.getHp(), monster.getHp());
 
+                    // after the strike check if the monster is dead
                     if (monster.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + hero.getName() + "\n===============================");
 
-                        // hero wins, he gets xp and gold of monster, also increases his level by 1
+                        // the hero wins, he gets xp and gold of the monster, also increases his level by 1
                         hero.setXp(hero.getXp() + monster.getXp());
                         hero.setGold(hero.getGold() + monster.getGold());
-                        hero.levelUp();
+                        hero.levelUp(monster);
 
                         // increment the counter
                         defeatedMonsters++;
@@ -62,13 +64,13 @@ public class BattleField {
                     System.out.printf("%s hits %s\n%dhp - %dhp\n\n", monster.getName(),
                             hero.getName(), monster.getHp(), hero.getHp());
 
+                    // after he strike check if the hero is dead
                     if (hero.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + monster.getName() + "\n===========================");
 
-                        // monster wins, he gets xp and gold of hero, also increases his level by 1
+                        // the monster wins, he gets xp and gold of the hero
                         monster.setXp(monster.getXp() + hero.getXp());
                         monster.setGold(monster.getGold() + hero.getGold());
-                        monster.levelUp();
                     }
 
                 // if missed

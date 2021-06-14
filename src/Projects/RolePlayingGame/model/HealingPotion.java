@@ -1,7 +1,7 @@
 package Projects.RolePlayingGame.model;
 
-    /*
-        The hero can use healing potions between the fights
+    /**
+     * The hero can use healing potions between the fights
      */
 
 public class HealingPotion {

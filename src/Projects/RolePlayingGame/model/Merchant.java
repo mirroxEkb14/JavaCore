@@ -2,9 +2,9 @@ package Projects.RolePlayingGame.model;
 
 import java.util.Random;
 
-    /*
-        Merchant sells healing potions for your hero
-        One such a potion that merchant sells for 100 gold
+    /**
+     * Merchant sells healing potions for the hero.
+     * One such a potion the merchant sells for 100 gold
      */
 
 public class Merchant {
@@ -26,8 +26,8 @@ public class Merchant {
         return random.nextBoolean();
     }
 
-    // the hero passes his gold and buys a potion(is he has enough gold and the merchant is at work)
-    public HealingPotion trade(Player hero) {
+    // the hero passes his gold and buys a potion(if he has enough gold and the merchant is at work)
+    public HealingPotion trade(Hero hero) {
 
         // check if the trader is here(get into this 'if' block if 'isArWork' == false)
         if (!isAtWork) {
@@ -47,10 +47,4 @@ public class Merchant {
         // if the merchant is not here or the hero does not have enough gold
         return null;
     }
-
-    // getter
-    public int getPrice() {
-        return price;
-    }
-
 }

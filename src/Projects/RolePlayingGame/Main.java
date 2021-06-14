@@ -9,24 +9,36 @@ import java.util.Scanner;
 public class Main {
 
     /**
+     * The point of the game is that the user must defeat three monsters in a row.
+     * Each next monster is stronger than the previous one.
+     * Between the battles the user can drink o buy a healing potion that the local merchant sells.
+     * There is a 50% chance that the merchant just will not go to work and the hero will not be able to buy a potion.
      *
+     *
+     * At the start of the game, the user gets into 'main menu' where he has two possibilities:
+     *      the first - go to twilight forest(when the user launches the game for the first time, he does have any hero,
+     *          so if he selects 'go to the forest' without a hero, the program will offer him to create one, so,
+     *          when the hero is created, the first battle between the hero and Goblin starts).
+     *
+     *      the second - create a hero(ask the user about nickname and main stat, create a hero,
+     *          move the user back to main menu).
+     *
+     *
+     * After the battle the user gets into 'battle menu', where he has four possibilities:
+     *      the first - go on fighting(just continue fighting monsters),
+     *      the second - see a hero(display all the hero`s information),
+     *      the third - drink a potion(if the hero has one, it heals his health)
+     *      the fourth - buy a potion(buy a potion from the merchant for 100 gold).
+     *
+     *
+     * After defeating a monster, the user gets its gold and xp, xp increases hero`s level,
+     * hero`s level increases his stats and max health.
+     *
+     * Also, if the user is bored, he can quit the game in any part of it by entering 'q' or 'exit'
      */
 
-
-    /*
-        Questions:
-            1. Do I need to create static StringBuilder for all methods
-     */
-
-    /*
-        To add:
-            1. potion
-            2. hill logic
-            3. Merchant
-     */
-
-    static Player hero;
-    static Monster monster;
+    static Hero hero; // creates by the user
+    static Monster monster; // creates automatically
 
     public static void main(String[] args) {
         System.out.println("Role Playing Game.\nExit - 'q'\n");
@@ -44,9 +56,12 @@ public class Main {
         // check if user wants to stop the game
         if (!ifExit(userInput)) {
 
+            // 'while' loop is needed in case the user enters undefined commands,
+            // then we ask him and check his input again
             while (true) {
+
                 // check the correctness of user input
-                if (createOrStart(userInput)) {
+                if (createOrGo(userInput)) {
 
                     // if user selected 'create a hero'
                     if (ifCreate(userInput)) {
@@ -55,7 +70,7 @@ public class Main {
 
                         // method ends...
 
-                    // if to start a fight
+                    // if to go to the forest(start a fight)
                     } else {
 
                         // check if the hero exists
@@ -73,7 +88,7 @@ public class Main {
                             // method ends...
                         }
                     }
-                    break; // leave 'while' loop
+                    break; // leave 'while' loop to end the method
 
                 // if user entered something unclear
                 } else {
@@ -134,8 +149,10 @@ public class Main {
                 break; // finish the method
             }
 
-            // after the fight ask the user to continue fighting, see his hero statistic or drink potion
-            System.out.printf("\nYou won %d %s, %d left\n- Continue fighting\n- See a hero\n- Drink potion\n- Buy a potion\n\n- ",
+            // After the fight ask the user to continue fighting, see his hero statistic, drink a potion or buy a potion.
+            // Terminal operator -> if only one monster is defeated, 'monster' will be printed, if more than one defeated - 'monsters',
+            // since in this game there are only 3 monsters, we decrease already defeated monsters from 3 to get the left ones
+            System.out.printf("\nYou won %d %s, %d left\n- Go on fighting\n- See a hero\n- Drink a potion\n- Buy a potion\n\n- ",
                     battleField.getDefeatedMonsters(), battleField.getDefeatedMonsters() == 1? "monster": "monsters",
                     3 - battleField.getDefeatedMonsters());
 
@@ -162,27 +179,28 @@ public class Main {
                         // try to drink a potion
                         } else if (ifDrink(userInput)) {
 
+                            // check the availability of healing potion
+                            if (hero.drinkPotion()) System.out.println("\nThe potion is drunk. Ready to fight");
+                            else System.out.println("\nNo potion in the inventory");
 
                         // buy a potion
                         } else {
                             flag = false;
 
-                            // buy a potion, can return 'null'
-                           HealingPotion potion = merchant.trade(hero);
-
-                           // check if the hero managed to buy a potion
-                            if (potion != null) hero.setPotion(potion); // now the hero has a healing potion
+                            // buy a potion(can return 'null')
+                           hero.setPotion(merchant.trade(hero));
 
                             // method ends...
                         }
 
-                        break; // leave 'while' loop
+                        break; // leave 'while' loop to ends the method
 
                     // if incorrect input
                     } else {
-                        System.out.print("\nYou can either continue fighting or see your hero statistic, or buy a potion\n- ");
+                        System.out.print("\nYou can only continue fighting, see your hero statistic, drink a potion or buy a potion\n- ");
                         userInput = scanner.nextLine();
 
+                        // check is the user is tired of playing
                         if (ifExit(userInput)) stopGame();
                     }
                 }
@@ -209,6 +227,8 @@ public class Main {
             }
             System.out.println(); // print space
 
+            // method ends...
+
         // if does not exist
         } else {
             System.out.println("\nAvailable stats: Agility, Force\n");
@@ -217,18 +237,19 @@ public class Main {
             System.out.println("Nick: ");
             String userName = scanner.nextLine();
 
-            // check if user wants to leave the program
+            // check if the user wants to leave the program
             if (!ifExit(userName)) {
 
                 // take user selected stat
                 System.out.println("\nMain stat: ");
                 String userStat = scanner.nextLine();
 
-                // check if user wants to leave the program
+                // if the user is bored
                 if (!ifExit(userStat)) {
 
-                    // infinite loop to check user entered stat, leave it when the stat is correct
+                    // infinite loop to check the user entered stat, leave it when the stat is correct
                     while (true) {
+
                         // if the user entered correct stat
                         if (checkInputStat(userStat)) {
 
@@ -239,7 +260,7 @@ public class Main {
 
                             System.out.println("\nYour hero is created.\n");
 
-                            break; // leave 'while' loop
+                            break; // leave 'while' loop and end the method
 
                         // if user entered unavailable stats
                         } else {
@@ -275,14 +296,14 @@ public class Main {
         } else if (defeatedMonsters == 1) {
             monster = new Skeleton();
 
-        // if it is the last round
+        // if it is the last round(goblin and skeleton are defeated)
         } else {
             monster = new Troll();
         }
     }
 
     // true -> if the hero exists, false otherwise
-    public static boolean ifHeroExists(Player hero) {
+    public static boolean ifHeroExists(Hero hero) {
         return hero != null;
     }
 
@@ -304,7 +325,7 @@ public class Main {
                 userInput.equalsIgnoreCase("exit");
     }
 
-    // returns true if user entered only available stats
+    // returns true if the user entered only available stats
     public static boolean checkInputStat(String inputStat) {
 
         return inputStat.equalsIgnoreCase("Agility") ||
@@ -312,12 +333,11 @@ public class Main {
     }
 
     // returns false if the user entered something unknown
-    public static boolean createOrStart(String userInput) {
-        return userInput.equalsIgnoreCase("start a fight") ||
-                userInput.equalsIgnoreCase("a fight") ||
-                userInput.equalsIgnoreCase("fight") ||
-                userInput.equalsIgnoreCase("fight!") ||
-                userInput.equalsIgnoreCase("start") ||
+    public static boolean createOrGo(String userInput) {
+        return userInput.equalsIgnoreCase("go to twilight forest") ||
+                userInput.equalsIgnoreCase("go") ||
+                userInput.equalsIgnoreCase("go to forest") ||
+                userInput.equalsIgnoreCase("go to the forest") ||
                 userInput.equalsIgnoreCase("create a hero") ||
                 userInput.equalsIgnoreCase("a hero") ||
                 userInput.equalsIgnoreCase("hero") ||
@@ -332,6 +352,7 @@ public class Main {
                 userInput.equalsIgnoreCase("create");
     }
 
+    // true if the user agrees
     public static boolean isYes(String userInput) {
         return userInput.equalsIgnoreCase("yes") ||
                 userInput.equalsIgnoreCase("yeah") ||
@@ -364,7 +385,7 @@ public class Main {
                 userInput.equalsIgnoreCase("to buy");
     }
 
-    // true -> if the user wants to continue fighting
+    // true if the user wants to continue fighting
     public static boolean ifContinue(String userInput) {
         return userInput.equalsIgnoreCase("continue") ||
                 userInput.equalsIgnoreCase("go on") ||
@@ -377,16 +398,18 @@ public class Main {
                 userInput.equalsIgnoreCase("fight!");
     }
 
-    // true -> if the user wants to see his hero statistic
+    // true if the user wants to see his hero statistic
     public static boolean ifSee(String userInput) {
         return userInput.equalsIgnoreCase("see") ||
                 userInput.equalsIgnoreCase("see hero") ||
                 userInput.equalsIgnoreCase("hero");
     }
 
+    // true if the user wants to drink a potion
     public static boolean ifDrink(String userInput) {
         return userInput.equalsIgnoreCase("heal") ||
                 userInput.equalsIgnoreCase("drink") ||
-                userInput.equalsIgnoreCase("drink potion");
+                userInput.equalsIgnoreCase("drink potion") ||
+                userInput.equalsIgnoreCase("drink a potion");
     }
 }

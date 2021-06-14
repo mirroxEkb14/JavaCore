@@ -6,6 +6,13 @@ import Projects.RolePlayingGame.util.PlayerKind;
 
 import java.util.Random;
 
+    /**
+     * This class contains common fields of all fantasy characters in the game,
+     * it has common methods that can be called by every fantasy character
+     *
+     * 'implements Fighter' says that each entity can fight(attack another entity)
+     */
+
 public abstract class Entity implements Fighter {
 
     private String name;
@@ -16,10 +23,10 @@ public abstract class Entity implements Fighter {
     private int xp;
     private int gold;
 
-    // constructor for player
+    // constructor for hero
     public Entity(String name, PlayerKind kind) {
 
-        // if a player wants more agility
+        // if a hero wants more agility
         if (kind.equals(PlayerKind.AGILITY)) {
             force = 20;
             agility = 25;
@@ -29,7 +36,7 @@ public abstract class Entity implements Fighter {
             agility = 20;
         }
 
-        // these are default values, when a player has just started the game
+        // these are default values, when a hero has just started the game
         this.name = name;
         level = 0;
         hp = 100;
@@ -83,8 +90,7 @@ public abstract class Entity implements Fighter {
         return  randomNumber >= currentAgility && randomNumber < (currentAgility + 10) ? getForce() : 0;
     }
 
-    // returns true if the hit is succeeded,
-    // false if missed
+    // returns true if the hit is succeeded, false if missed
     @Override
     public boolean hit(Entity entity) {
         int attack = this.attack();
@@ -98,14 +104,6 @@ public abstract class Entity implements Fighter {
         }
     }
 
-    // print all the information about the current entity
-    @Override
-    public void printStatistic() {
-        System.out.printf("Name: %s\nLevel: %d\nCondition: %s\nForce: %d\nAgility: %d\nXP: %d\nGold: %d\n",
-                this.getName(), this.getLevel(), this.isAlive()? "Alive": "Dead", this.getForce(),
-                this.getAgility(), this.getXp(), this.getGold());
-    }
-
     // false if character is dead, true if alive
     public boolean isAlive() {
         return hp > 0;
@@ -116,26 +114,10 @@ public abstract class Entity implements Fighter {
         return hp <= 0;
     }
 
-    // returns a random number [20, 35]
+    // returns a random number [20, 35)
     public int getRandom() {
         Random random = new Random();
         return 20 + random.nextInt(15);
-    }
-
-    // increases the level, taking into account the amount of XP
-    // with increasing hero level, we increase his stats
-    public void levelUp() {
-        int currentXp = getXp();
-
-        level += currentXp - (currentXp / 100 * 99); // decrease 99% from XP
-
-        // increase the stats by 20%
-        float currentForce = getForce(); // 'float' because when we divide by 100 we get a float number
-        force = Math.round(currentForce + (currentForce / 100 * 20));
-
-
-        float currentAgility = getAgility();
-        agility = Math.round(currentAgility + (currentAgility / 100 * 20));
     }
 
     // getters and setters
@@ -150,6 +132,10 @@ public abstract class Entity implements Fighter {
 
     public int getLevel() {
         return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
     }
 
     public int getHp() {
