@@ -10,7 +10,7 @@ import java.util.Random;
 public class Merchant {
 
     // determines either the merchant is available or not
-    private final boolean isAtWork;
+    private boolean isAtWork;
 
     // his price for one potion
     private final int price = 100;
@@ -32,6 +32,7 @@ public class Merchant {
         // check if the trader is here(get into this 'if' block if 'isArWork' == false)
         if (!isAtWork) {
             System.out.println("\nThe Merchant is not here");
+            isAtWork = getRandom(); // override the variable
 
         // one potion costs 100 gold
         } else if (hero.getGold() < price) {

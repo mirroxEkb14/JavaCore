@@ -35,16 +35,16 @@ public class BattleField {
                 // if hit
                 if (hitResult) {
                     System.out.printf("%s hits %s\n%dhp - %dhp\n\n", hero.getName(),
-                            monster.getName(), hero.getHp(), monster.getHp());
+                            monster.getName(), hero.getHP(), monster.getHP());
 
                     // after the strike check if the monster is dead
                     if (monster.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + hero.getName() + "\n===============================");
 
                         // the hero wins, he gets xp and gold of the monster, also increases his level by 1
-                        hero.setXp(hero.getXp() + monster.getXp());
+                        hero.setXP(hero.getXP() + monster.getXP());
                         hero.setGold(hero.getGold() + monster.getGold());
-                        hero.levelUp(monster);
+                        hero.levelUp();
 
                         // increment the counter
                         defeatedMonsters++;
@@ -62,14 +62,14 @@ public class BattleField {
                 // if hit
                 if (hitResult) {
                     System.out.printf("%s hits %s\n%dhp - %dhp\n\n", monster.getName(),
-                            hero.getName(), monster.getHp(), hero.getHp());
+                            hero.getName(), monster.getHP(), hero.getHP());
 
                     // after he strike check if the hero is dead
                     if (hero.isDead()) {
                         System.out.println("\nThe fight ended with the victory of " + monster.getName() + "\n===========================");
 
                         // the monster wins, he gets xp and gold of the hero
-                        monster.setXp(monster.getXp() + hero.getXp());
+                        monster.setXP(monster.getXP() + hero.getXP());
                         monster.setGold(monster.getGold() + hero.getGold());
                     }
 

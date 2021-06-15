@@ -83,7 +83,7 @@ public abstract class Entity implements Fighter {
     @Override
     public int attack() {
         int randomNumber = getRandom(); // get a random number
-        int currentAgility = getAgility(); // get agility
+        int currentAgility = getAgility(); // get agility of the current entity
 
         // if the random number is greater or equals to the current entity agility AND the random number is greater than
         // the current agility plus ten, return the full entity strength, 0 otherwise(miss)
@@ -99,7 +99,7 @@ public abstract class Entity implements Fighter {
             return false;
 
         } else { // if hit
-            entity.setHp(entity.getHp() - attack);
+            entity.setHP(entity.getHP() - attack);
             return true;
         }
     }
@@ -138,11 +138,11 @@ public abstract class Entity implements Fighter {
         this.level = level;
     }
 
-    public int getHp() {
+    public int getHP() {
         return hp;
     }
 
-    public void setHp(int hp) {
+    public void setHP(int hp) {
         this.hp = hp;
     }
 
@@ -162,11 +162,11 @@ public abstract class Entity implements Fighter {
         this.agility = agility;
     }
 
-    public int getXp() {
+    public int getXP() {
         return xp;
     }
 
-    public void setXp(int xp) {
+    public void setXP(int xp) {
         this.xp = xp;
     }
 

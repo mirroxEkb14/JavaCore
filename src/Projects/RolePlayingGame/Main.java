@@ -30,11 +30,13 @@ public class Main {
      *      the third - drink a potion(if the hero has one, it heals his health)
      *      the fourth - buy a potion(buy a potion from the merchant for 100 gold).
      *
+     * Whatever the user selects, after it he gets to the 'battleMenu' again.
+     *
      *
      * After defeating a monster, the user gets its gold and xp, xp increases hero`s level,
      * hero`s level increases his stats and max health.
      *
-     * Also, if the user is bored, he can quit the game in any part of it by entering 'q' or 'exit'
+     * Also, if the user gets bored, he can quit the game in any part of it by entering 'q' or 'exit'
      */
 
     static Hero hero; // creates by the user
@@ -129,18 +131,19 @@ public class Main {
         // in this case, after 'else' block(creating a hero) we will go to 'if' block
         while (true) {
 
-            // before the battle we check if all the monsters(3) are defeated
-            if (battleField.getDefeatedMonsters() == 3) {
-                System.out.println("\nYou defeated all the monsters\nThe game is passed.");
-                break; // finish the method
-
             // if it is the first fight('mainMenu' method calls or the user entered 'continue fighting')
-            } else if (flag) {
+            if (flag) {
                 // create a monster
                 createMonster(battleField.getDefeatedMonsters());
 
                 // FIGHT!
                 battleField.fight(hero, monster);
+            }
+
+            // before the battle we check if all the monsters(3) are defeated
+            if (battleField.getDefeatedMonsters() == 3) {
+                System.out.println("\nYou defeated all the monsters\nThe game is passed.");
+                break; // finish the method
             }
 
             // if the hero fell
@@ -197,7 +200,7 @@ public class Main {
 
                     // if incorrect input
                     } else {
-                        System.out.print("\nYou can only continue fighting, see your hero statistic, drink a potion or buy a potion\n- ");
+                        System.out.print("\nUnknown command\n- ");
                         userInput = scanner.nextLine();
 
                         // check is the user is tired of playing
