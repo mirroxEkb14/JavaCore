@@ -28,8 +28,6 @@ public class Inventory {
 
     public static void main(String[] args) {
 
-        FoodAndDrinkItems.WHITE_WOLF.
-
         System.out.println();
     }
 }
