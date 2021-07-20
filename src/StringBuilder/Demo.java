@@ -1,6 +1,6 @@
 package StringBuilder;
 
-public class StringBuilderDemo {
+public class Demo {
 
     public static void main(String[] args) {
         // if we use 'String' class

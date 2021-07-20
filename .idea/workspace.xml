@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Bombs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Consumables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Weapons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/FoodAndDrinkItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/RoachItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/AlchemyItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/CraftingItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/BombItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/OilItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/PotionItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/OtherItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/QuestItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/ArmorItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/WeaponItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/StringBuilder/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Memory/PracticalTask/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringBuilder/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringBuilder/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +35,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rIWVE1ojltYASyEsCAJexssUG9" />
   <component name="ProjectViewState">
@@ -32,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Dates/OldDateApi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,7 +86,20 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Car">
+  <component name="RunManager" selected="Application.Inventory">
+    <configuration name="BattleField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.RolePlayingGame.service.BattleField" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Projects.RolePlayingGame.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Memory.PracticalTask.Car" />
       <module name="JavaCore" />
@@ -69,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.CarDealerShip.Main" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.WitcherBackpack.model.Demo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.CarDealerShip.*" />
+          <option name="PATTERN" value="Projects.WitcherInventory.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memory.PracticalTask.Main" />
+    <configuration name="Inventory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.WitcherInventory.model.Inventory" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Memory.PracticalTask.*" />
+          <option name="PATTERN" value="Projects.WitcherInventory.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryLeakExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memory.VisualIVM.MemoryLeakExample" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.RolePlayingGame.Main" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Memory.VisualIVM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="STWExample" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memory.VisualIVM.STWExample" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Memory.VisualIVM.*" />
+          <option name="PATTERN" value="Projects.RolePlayingGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.STWExample" />
-      <item itemvalue="Application.MemoryLeakExample" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BattleField" />
       <item itemvalue="Application.Car" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Inventory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inventory" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.BattleField" />
         <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MemoryLeakExample" />
-        <item itemvalue="Application.STWExample" />
       </list>
     </recent_temporary>
   </component>

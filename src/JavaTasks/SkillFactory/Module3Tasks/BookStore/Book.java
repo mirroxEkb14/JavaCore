@@ -1,4 +1,4 @@
-package Module3Tasks.BookStore;
+package JavaTasks.SkillFactory.Module3Tasks.BookStore;
 
 import java.util.Objects;
 
