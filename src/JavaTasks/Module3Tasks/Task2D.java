@@ -2,7 +2,7 @@ package JavaTasks.Module3Tasks;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class Task2D {
 
     /**
      * Напишите программу, в которой пользователя просят ввести имя и пароль.

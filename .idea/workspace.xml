@@ -2,30 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Bombs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Consumables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Weapons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/FoodAndDrinkItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/RoachItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/AlchemyItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/CraftingItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/BombItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/OilItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/PotionItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/OtherItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/QuestItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/ArmorItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/WeaponItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/helper/basics/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/helper/basics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/helper/basics/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/helper/basics/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaTasks/Habr/MinMaxAvg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/Memory/PracticalTask/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStore/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/StringBuilder/StringBuilderDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/BookStore/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Memory/PracticalTask/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memory/PracticalTask/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringBuilder/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringBuilder/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaTasks/Itnanru/Basis/MinMaxAvgValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/BookStoreTask4/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Module3Tasks/Task9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/model/Character/Bombs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/model/Character/Consumables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/model/Character/Weapons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/model/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Bag/FoodAndDrinkItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Bag/RoachItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Components/AlchemyItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Components/CraftingItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Consumable/BombItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Consumable/OilItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Consumable/PotionItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Finds/OtherItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Finds/QuestItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Gear/ArmorItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/Projects/WitcherInventory/util/Gear/WeaponItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/Itnanru/Basis/MinMaxAvgValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/SkillFactory/Module3Tasks/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/BookStoreTask4/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/BookStoreTask4/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/BookStoreTask4/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/BookStoreTask4/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module3Tasks/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTasks/Module3Tasks/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Bombs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Consumables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Character/Weapons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/model/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/FoodAndDrinkItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Bag/RoachItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/AlchemyItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Components/CraftingItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/BombItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/OilItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Consumable/PotionItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/OtherItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Finds/QuestItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/ArmorItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/WitcherInventory/util/Gear/WeaponItems.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,85 +107,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Dates\OldDateApi" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Dates\NewDateTimeApi" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Threads\ThreadTasks\SkillFactoryTasks" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Threads\YouTubeLessons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper\basics" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\CountWords" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\NumbersInArow" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\LastLetterToFirstLetter" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\StartsWithVowel" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Serialization\Demo2\Example1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="Stream.Tasks.Habr.StreamClassMethods" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Inventory">
-    <configuration name="BattleField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.RolePlayingGame.service.BattleField" />
+  <component name="RunManager">
+    <configuration name="BasicsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.helper.basics.BasicsDemo" />
       <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Projects.RolePlayingGame.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memory.PracticalTask.Car" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Memory.PracticalTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.WitcherBackpack.model.Demo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Projects.WitcherInventory.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inventory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.WitcherInventory.model.Inventory" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Projects.WitcherInventory.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.RolePlayingGame.Main" />
-      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Projects.RolePlayingGame.*" />
@@ -152,20 +150,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.BattleField" />
-      <item itemvalue="Application.Car" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Inventory" />
-    </list>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.Main" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTasks.Habr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Inventory" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.BattleField" />
-        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.BasicsDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

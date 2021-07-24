@@ -1,6 +1,6 @@
 package JavaTasks.Module3Tasks;
 
-public class Task3 {
+public class Task3D {
 
     /**
      * Прошло соревнование среди 5 участников: Саша, Игорь, Миша, Коля и Владимир,

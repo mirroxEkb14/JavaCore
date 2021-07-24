@@ -2,7 +2,7 @@ package JavaTasks.Module3Tasks;
 
 import java.util.Arrays;
 
-public class Task1 {
+public class Task1D {
 
     /**
      * Создайте массив и инициализируйте его следующими значениями:
