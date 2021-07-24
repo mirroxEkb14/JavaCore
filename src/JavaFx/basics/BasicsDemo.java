@@ -1,4 +1,4 @@
-package JavaFx.helper.basics;
+package JavaFx.basics;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -19,7 +19,7 @@ public class BasicsDemo extends Application {
         Scene scene = new Scene(root, Color.BLACK); // adds a background color to the window
 
         // add an icon
-        Image icon = new Image("JavaFx/helper/basics/icon.png");
+        Image icon = new Image("JavaFx/basics/icon.png");
         stage.getIcons().add(icon);
 
         stage.setTitle("Stage Demo Program w00t w00t"); // set title
