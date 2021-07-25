@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/scenes/ScenesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/SceneBuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/EventHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/StylingCSSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/SwitchScenesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/sample1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/sample2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/helper/basics/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/helper/basics/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/helper/basics/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/helper/basics/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/basics/BasicsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/basics/BasicsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/basics/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/basics/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/basics/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/basics/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/basics/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/basics/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/scenes/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/scenes/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/scenes/ScenesDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/helper/scenes/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/scenes/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +30,9 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -54,25 +56,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx/SceneBuilder" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\SceneBuilder" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper\scenes" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Dates\OldDateApi" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Dates\NewDateTimeApi" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Threads\ThreadTasks\SkillFactoryTasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Demo" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\scenes" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper\basics" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\CountWords" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\Files\Tasks\NumbersInArow" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -82,14 +85,14 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScenesDemo">
-    <configuration name="BasicsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.basics.BasicsDemo" />
+  <component name="RunManager" selected="Application.SwitchScenesDemo">
+    <configuration name="EventHandlingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.EventHandling.EventHandlingDemo" />
       <module name="JavaCore" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Projects.RolePlayingGame.*" />
+          <option name="PATTERN" value="JavaFx.sceneBuilder.EventHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +101,25 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.Main" />
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.EventHandling.Main" />
+      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaFx.sceneBuilder.EventHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SceneBuilderDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.Demo.SceneBuilderDemo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaTasks.Habr.*" />
+          <option name="PATTERN" value="JavaFx.sceneBuilder.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,17 +142,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StylingCSSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.StylingCSS.StylingCSSDemo" />
+      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaFx.sceneBuilder.StylingCSS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchScenesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.SwitchScenes.SwitchScenesDemo" />
+      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaTasks.Habr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BasicsDemo" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SwitchScenesDemo" />
       <item itemvalue="Application.ScenesDemo" />
+      <item itemvalue="Application.SceneBuilderDemo (1)" />
+      <item itemvalue="Application.StylingCSSDemo" />
+      <item itemvalue="Application.EventHandlingDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScenesDemo" />
-        <item itemvalue="Application.BasicsDemo" />
+        <item itemvalue="Application.SwitchScenesDemo" />
+        <item itemvalue="Application.StylingCSSDemo" />
+        <item itemvalue="Application.EventHandlingDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SceneBuilderDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +209,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaCore$STWExample.ic" NAME="STWExample Coverage Results" MODIFIED="1622954555539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
