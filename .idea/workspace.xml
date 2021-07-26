@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/SceneBuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Demo/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/EventHandlingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/EventHandling/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/StylingCSSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/StylingCSS/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/SwitchScenesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/sample1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/SwitchScenes/sample2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ControllersCommunication/ControllersComDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ControllersCommunication/Scene1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ControllersCommunication/Scene2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ControllersCommunication/sample1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ControllersCommunication/sample2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Logout/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Logout/LogoutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Logout/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +25,8 @@
         <option value="Kotlin Class" />
         <option value="Enum" />
         <option value="module-info" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +79,7 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchScenesDemo">
+  <component name="RunManager" selected="Application.LogoutDemo">
     <configuration name="EventHandlingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.EventHandling.EventHandlingDemo" />
       <module name="JavaCore" />
@@ -100,6 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogoutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.Logout.LogoutDemo" />
+      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaFx.sceneBuilder.ControllersCommunication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.EventHandling.Main" />
       <module name="JavaCore" />
@@ -107,34 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaFx.sceneBuilder.EventHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SceneBuilderDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.Demo.SceneBuilderDemo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaFx.sceneBuilder.Demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScenesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.scenes.ScenesDemo" />
-      <module name="JavaCore" />
-      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaFx.scenes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SwitchScenesDemo" />
-      <item itemvalue="Application.ScenesDemo" />
-      <item itemvalue="Application.SceneBuilderDemo (1)" />
       <item itemvalue="Application.StylingCSSDemo" />
       <item itemvalue="Application.EventHandlingDemo" />
+      <item itemvalue="Application.LogoutDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogoutDemo" />
         <item itemvalue="Application.SwitchScenesDemo" />
         <item itemvalue="Application.StylingCSSDemo" />
         <item itemvalue="Application.EventHandlingDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SceneBuilderDemo (1)" />
       </list>
     </recent_temporary>
   </component>
