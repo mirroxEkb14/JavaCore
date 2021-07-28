@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.sceneBuilder.TextField.Controller">
+   <children>
+      <Label fx:id="myLabel" layoutX="216.0" layoutY="28.0" prefHeight="51.0" prefWidth="165.0" text="Welcome!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="139.0" text="Enter your age">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myTextField" layoutX="151.0" layoutY="200.0" promptText="ex. 21">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="myBotton" layoutX="260.0" layoutY="287.0" mnemonicParsing="false" onAction="#submit" text="submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
