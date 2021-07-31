@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="257.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.sceneBuilder.DatePicker.Controller">
+   <children>
+      <DatePicker fx:id="myDatePicker" layoutX="212.0" layoutY="164.0" onAction="#getDate" promptText="Enter a date" />
+      <Label fx:id="myLabel" alignment="CENTER" layoutX="-1.0" layoutY="58.0" prefHeight="54.0" prefWidth="600.0" text="Label">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
