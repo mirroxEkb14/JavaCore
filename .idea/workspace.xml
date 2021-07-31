@@ -2,48 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Animations/AnimationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Animations/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Animations/images/sonic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Animations/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ChoiceBox/ChoiceBoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ChoiceBox/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ChoiceBox/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ColorPicker/ColorPickerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ColorPicker/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ColorPicker/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/DatePicker/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/DatePicker/DatePickerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/DatePicker/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/FlowPane/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/FlowPane/FlowPaneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/FlowPane/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/KeyEvent/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/KeyEvent/KeyEventDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/KeyEvent/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ListView/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ListView/ListViewDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ListView/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MenuBar/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MenuBar/MenuBarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MenuBar/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ProgressBar/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ProgressBar/ProgressBarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/ProgressBar/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/RadioButton/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/RadioButton/RadioButtonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/RadioButton/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Slider/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Slider/SliderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Slider/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Spinner/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Spinner/SpinnerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Spinner/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/TreeView/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/TreeView/TreeViewDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/TreeView/folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/TreeView/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/VideoView/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/VideoView/VideoViewDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/VideoView/media/cows.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/VideoView/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/WebView/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/WebView/WebViewDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/WebView/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/Animations/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/Animations/Controller.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +25,8 @@
         <option value="Kotlin Class" />
         <option value="Enum" />
         <option value="module-info" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx/sceneBuilder/Animations/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx/sceneBuilder/VideoView" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -91,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\VideoView" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\VideoView\media" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations\images" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\FlowPane" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\SceneBuilder" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\helper\scenes" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations\images" />
@@ -112,7 +79,7 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimationsDemo">
+  <component name="RunManager" selected="Application.WebViewDemo">
     <configuration name="AnimationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.Animations.AnimationsDemo" />
       <module name="JavaCore" />
@@ -141,20 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListViewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.ListView.ListViewDemo" />
-      <module name="JavaCore" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaFx.sceneBuilder.ControllersCommunication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MenuBarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.MenuBar.MenuBarDemo" />
       <module name="JavaCore" />
@@ -169,10 +122,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeViewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.TreeView.TreeViewDemo" />
+    <configuration name="VideoViewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.VideoView.VideoViewDemo" />
       <module name="JavaCore" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml --add-modules=javafx.controls,javafx.media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaFx.sceneBuilder.ControllersCommunication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebViewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.WebView.WebViewDemo" />
+      <module name="JavaCore" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml --add-modules=javafx.controls,javafx.web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaFx.sceneBuilder.EventHandling.*" />
@@ -184,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TreeViewDemo" />
+      <item itemvalue="Application.WebViewDemo" />
       <item itemvalue="Application.AnimationsDemo" />
       <item itemvalue="Application.FlowPaneDemo" />
       <item itemvalue="Application.MenuBarDemo" />
-      <item itemvalue="Application.ListViewDemo" />
+      <item itemvalue="Application.VideoViewDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebViewDemo" />
+        <item itemvalue="Application.VideoViewDemo" />
         <item itemvalue="Application.AnimationsDemo" />
         <item itemvalue="Application.FlowPaneDemo" />
         <item itemvalue="Application.MenuBarDemo" />
-        <item itemvalue="Application.TreeViewDemo" />
-        <item itemvalue="Application.ListViewDemo" />
       </list>
     </recent_temporary>
   </component>

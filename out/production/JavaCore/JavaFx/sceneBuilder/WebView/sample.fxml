@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.sceneBuilder.WebView.Controller">
+   <children>
+      <WebView fx:id="myWebView" layoutY="75.0" prefHeight="500.0" prefWidth="750.0" />
+      <Button layoutY="49.0" mnemonicParsing="false" onAction="#loadPage" text="load" />
+      <TextField fx:id="myTextField" layoutY="23.0" onAction="#loadPage" prefHeight="26.0" prefWidth="750.0" />
+      <Button layoutX="39.0" layoutY="49.0" mnemonicParsing="false" onAction="#refreshPage" text="refresh" />
+      <Button layoutX="92.0" layoutY="49.0" mnemonicParsing="false" onAction="#zoomIn" text="+" />
+      <Button layoutX="117.0" layoutY="49.0" mnemonicParsing="false" onAction="#zoomOut" text="-" />
+      <Button layoutX="138.0" layoutY="49.0" mnemonicParsing="false" onAction="#displayHistory" text="history" />
+      <Button layoutX="190.0" layoutY="49.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Button layoutX="231.0" layoutY="49.0" mnemonicParsing="false" onAction="#forward" text="forward" />
+      <Button layoutX="289.0" layoutY="49.0" mnemonicParsing="false" onAction="#executeJS" text="execute JS" />
+   </children>
+</AnchorPane>
