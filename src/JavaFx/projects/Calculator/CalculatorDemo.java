@@ -1,13 +1,12 @@
-package JavaFx.sceneBuilder.MusicPlayer;
+package JavaFx.projects.Calculator;
 
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MusicPlayerDemo extends Application {
+public class CalculatorDemo extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -16,11 +15,6 @@ public class MusicPlayerDemo extends Application {
 
         stage.setScene(scene);
         stage.show();
-
-        stage.setOnCloseRequest(windowEvent -> {
-            Platform.exit();
-            System.exit(0);
-        });
     }
 
     public static void main(String[] args) { launch(args); }

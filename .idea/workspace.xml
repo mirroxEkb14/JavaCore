@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/media/Coco Islands – Scandinavianz.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/media/Moonlight – Roa.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/media/i'm falling – Rexlambo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/WebView/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/WebView/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +66,11 @@
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\FlowPane" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations\images" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\TreeView" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\ImageView" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Demo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -78,7 +80,7 @@
       <recent name="Serialization.Demo2.Example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MusicPlayerDemo">
+  <component name="RunManager" selected="Application.CalculatorDemo">
     <configuration name="AnimationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.Animations.AnimationsDemo" />
       <module name="JavaCore" />
@@ -93,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuBarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaFx.sceneBuilder.MenuBar.MenuBarDemo" />
+    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.projects.Calculator.CalculatorDemo" />
       <module name="JavaCore" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\openjfx-16_windows-x64_bin-sdk\javafx-sdk-16\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -153,16 +155,16 @@
       <item itemvalue="Application.WebViewDemo" />
       <item itemvalue="Application.AnimationsDemo" />
       <item itemvalue="Application.MusicPlayerDemo" />
-      <item itemvalue="Application.MenuBarDemo" />
+      <item itemvalue="Application.CalculatorDemo" />
       <item itemvalue="Application.VideoViewDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorDemo" />
         <item itemvalue="Application.MusicPlayerDemo" />
         <item itemvalue="Application.WebViewDemo" />
         <item itemvalue="Application.VideoViewDemo" />
         <item itemvalue="Application.AnimationsDemo" />
-        <item itemvalue="Application.MenuBarDemo" />
       </list>
     </recent_temporary>
   </component>
