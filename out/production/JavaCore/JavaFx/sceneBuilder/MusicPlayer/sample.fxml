@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="178.0" prefWidth="610.0" style="-fx-background-color: #FFFFE0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.sceneBuilder.MusicPlayer.Controller">
+   <children>
+      <Label fx:id="songLabel" alignment="CENTER" layoutX="-1.0" prefHeight="117.0" prefWidth="610.0" text="MP3 PLAYER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="myProgressBar" layoutX="-2.0" layoutY="118.0" prefHeight="22.0" prefWidth="610.0" progress="0.0" />
+      <Button fx:id="playButton" layoutY="140.0" mnemonicParsing="false" onAction="#playMedia" text="PLAY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="pauseButton" layoutX="65.0" layoutY="140.0" mnemonicParsing="false" onAction="#pauseMedia" text="PAUSE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetMedia" layoutX="142.0" layoutY="140.0" mnemonicParsing="false" onAction="#resetMedia" text="RESET">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="previousButton" layoutX="214.0" layoutY="140.0" mnemonicParsing="false" onAction="#previousMedia" text="PREVIOUS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="nextButton" layoutX="320.0" layoutY="140.0" mnemonicParsing="false" onAction="#nextMedia" text="NEXT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="myComboBox" layoutX="387.0" layoutY="140.0" onAction="#changeSpeed" prefHeight="39.0" prefWidth="77.0" promptText="SPEED" />
+      <Slider fx:id="mySlider" layoutX="465.0" layoutY="152.0" max="200.0" prefHeight="14.0" prefWidth="144.0" value="100.0" />
+   </children>
+</AnchorPane>
