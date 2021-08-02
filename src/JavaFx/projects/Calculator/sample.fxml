@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="227.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.projects.Calculator.Controller">
+<AnchorPane prefHeight="265.0" prefWidth="232.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.projects.Calculator.Controller">
    <children>
-      <Button layoutX="20.0" layoutY="60.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="7">
+      <Button layoutX="20.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="7">
          <font>
             <Font size="14.0" />
          </font>
@@ -16,72 +16,93 @@
             <Font size="21.0" />
          </font>
       </Label>
-      <Button layoutX="70.0" layoutY="60.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="8">
+      <Button layoutX="70.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="8">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="120.0" layoutY="60.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="9">
+      <Button layoutX="120.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="9">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="20.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="4">
+      <Button layoutX="20.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="4">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="70.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="5">
+      <Button layoutX="70.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="5">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="120.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="6">
+      <Button layoutX="120.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="6">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="20.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="1">
+      <Button layoutX="20.0" layoutY="180.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="1">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="70.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="2">
+      <Button layoutX="70.0" layoutY="180.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="2">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="120.0" layoutY="140.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="3">
+      <Button layoutX="120.0" layoutY="180.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="3">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="170.0" layoutY="60.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="32.0" prefWidth="42.0" text="/">
+      <Button layoutX="170.0" layoutY="100.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="32.0" prefWidth="42.0" text="/">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="170.0" layoutY="100.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="*">
+      <Button layoutX="170.0" layoutY="140.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="*">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="170.0" layoutY="140.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="-">
+      <Button layoutX="170.0" layoutY="180.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="-">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="170.0" layoutY="180.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="+">
+      <Button layoutX="170.0" layoutY="220.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="+">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="120.0" layoutY="180.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="=">
+      <Button layoutX="120.0" layoutY="220.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="=">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="20.0" layoutY="180.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="92.0" text="0">
+      <Button layoutX="20.0" layoutY="220.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="70.0" layoutY="220.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text=",">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="60.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="\%">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="70.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="x²">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="C" />
+      <Button layoutX="170.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="☒">
          <font>
             <Font size="14.0" />
          </font>

@@ -93,6 +93,8 @@ public class Controller {
                 } else return number1 / number2;
             case "*":
                 return number1 * number2;
+            case "%":
+                return
             default:
                 return 0;
         }
