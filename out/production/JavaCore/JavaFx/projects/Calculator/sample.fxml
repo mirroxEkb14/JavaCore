@@ -13,7 +13,7 @@
       </Button>
       <Label fx:id="myLabel" alignment="CENTER_RIGHT" layoutX="20.0" layoutY="10.0" prefHeight="51.0" prefWidth="192.0" text="0">
          <font>
-            <Font size="20.0" />
+            <Font size="21.0" />
          </font>
       </Label>
       <Button layoutX="70.0" layoutY="60.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="8">

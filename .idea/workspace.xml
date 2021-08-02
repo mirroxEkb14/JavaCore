@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/images/calc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/MusicPlayerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/CalculatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/CalculatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx/sceneBuilder/MusicPlayer/media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/JavaFx/projects/Calculator" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,18 +57,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects\Calculator" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects\Calculator\images" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\MusicPlayer\media" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\VideoView" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\VideoView\media" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations\images" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\FlowPane" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects\Calculator\images" />
+      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects\Calculator" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\projects" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations\images" />
       <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\Animations" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\TreeView" />
-      <recent name="C:\Users\user\IdeaProjects\JavaCore\src\JavaFx\sceneBuilder\ImageView" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
