@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/CalculatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/CalculatorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" afterDir="false" />
     </list>

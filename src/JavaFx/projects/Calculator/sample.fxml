@@ -81,12 +81,12 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="20.0" layoutY="220.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="0">
+      <Button layoutX="70.0" layoutY="220.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text="0">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="70.0" layoutY="220.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text=",">
+      <Button layoutX="20.0" layoutY="220.0" mnemonicParsing="false" onAction="#processNumbers" prefHeight="34.0" prefWidth="42.0" text=".">
          <font>
             <Font size="14.0" />
          </font>
@@ -96,13 +96,13 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="70.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="x²">
+      <Button layoutX="70.0" layoutY="60.0" mnemonicParsing="false" onAction="#pow" prefHeight="34.0" prefWidth="42.0" text="x²">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="120.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="C" />
-      <Button layoutX="170.0" layoutY="60.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="42.0" text="☒">
+      <Button layoutX="120.0" layoutY="60.0" mnemonicParsing="false" onAction="#processSigns" prefHeight="34.0" prefWidth="42.0" text="C" />
+      <Button layoutX="170.0" layoutY="60.0" mnemonicParsing="false" onAction="#erase" prefHeight="34.0" prefWidth="42.0" text="⌫">
          <font>
             <Font size="14.0" />
          </font>
