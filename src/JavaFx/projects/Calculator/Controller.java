@@ -1,24 +1,31 @@
 package JavaFx.projects.Calculator;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+
+import java.util.Arrays;
 
 public class Controller {
 
     @FXML
     private Label myLabel;
 
+    private final String BIG_NUMBER = "Too large digit";
+
     private float number1;
     private float number2;
     private String sign;
 
     private float calcResult;
+    private String labelText;
 
     private boolean number1Flag = false;
     private boolean number2Flag = false;
     private boolean percentSignFlag = false;
+    private boolean powFlag = false;
 
     private boolean cleanLabel = true;
     private boolean byZeroError = false;
@@ -26,9 +33,12 @@ public class Controller {
     public void processNumbers(ActionEvent event) {
 
         String currentNumber = ((Button) event.getSource()).getText();
-        String labelText = myLabel.getText();
+        labelText = myLabel.getText();
 
-        if (cleanLabel) {
+        if (labelText.length() == 16) {
+            myLabel.setText(BIG_NUMBER);
+
+        } else if (cleanLabel || labelText.equals(BIG_NUMBER)) {
             if (currentNumber.equals("."))
                 myLabel.setText(labelText + currentNumber);
             else
@@ -36,12 +46,30 @@ public class Controller {
 
             number1Flag = true;
             cleanLabel = false;
+            powFlag = false;
 
+        // 1.0 + 2.0 ; 1.0 * . ; 1.0 + 2..
         } else {
-            if (Character.toString(labelText.charAt(labelText.length() - 1)).equals(".") && currentNumber.equals("."))
-                return;
-            else if (sign != null)
+            String[] labelTextArray;
+
+            if (sign != null) {
+                switch (sign) {
+                    case "+" -> labelTextArray = labelText.split("\\+");
+                    case "*" -> labelTextArray = labelText.split("\\*");
+                    default -> labelTextArray = labelText.split(sign);
+                }
                 number2Flag = true;
+
+                if (labelTextArray.length == 2 && labelTextArray[1].contains(".") && currentNumber.equals(".")) {
+                    return;
+                } else if (labelTextArray.length == 1 && currentNumber.equals(".")) {
+                    labelText += "0";
+                    myLabel.setText(labelText);
+                }
+
+            } else if (labelText.contains(".") && currentNumber.contains(".")) {
+                    return;
+            }
 
             myLabel.setText(labelText + currentNumber);
         }
@@ -50,16 +78,19 @@ public class Controller {
     public void processSigns(ActionEvent event) {
 
         String currentSign = ((Button) event.getSource()).getText();
-        String labelText = myLabel.getText();
+        labelText = myLabel.getText();
 
         if (currentSign.equals("C")) {
             myLabel.setText("0");
             resetValues();
 
+        } else if (labelText.equals(BIG_NUMBER)) {
+            return;
+
         } else if (currentSign.equals("%")) {
             if (!number2Flag) return;
 
-            number2 = number1 / 100 * getNumber2(labelText);
+            number2 = number1 / 100 * getNumber2();
 
             if (isWholeNumber(number1) && isWholeNumber(number2))
                 myLabel.setText(String.format("%d%s%d", (int) number1, sign, (int) number2));
@@ -85,11 +116,18 @@ public class Controller {
         } else {
             if (!number2Flag) return;
 
-            if (!percentSignFlag) number2 = getNumber2(labelText);
+            if (!percentSignFlag) number2 = getNumber2();
 
             calcResult = calculate();
+            String stringResult = Double.toString(calcResult);
 
-            if (!byZeroError) {
+            if (stringResult.contains("E")) {
+                if (stringResult.length() < 17)
+                    myLabel.setText(stringResult);
+                else
+                    myLabel.setText(BIG_NUMBER);
+
+            } else if (!byZeroError) {
                 if (isWholeNumber(calcResult))
                     myLabel.setText(Float.toString(calcResult).split("\\.")[0]);
                 else
@@ -104,25 +142,49 @@ public class Controller {
     }
 
     public void erase() {
-        if (myLabel.getText().length() == 1) {
+        labelText = myLabel.getText();
+        if (labelText.length() == 1 || labelText.equals(BIG_NUMBER)) {
             myLabel.setText("0");
             cleanLabel = true;
+            resetValues();
+
         } else {
-            myLabel.setText(myLabel.getText().substring(0, myLabel.getText().length() - 1));
+            if (!number2Flag && sign != null)
+                sign = null;
+
+            myLabel.setText(labelText.substring(0, labelText.length() - 1));
         }
     }
 
     public void pow() {
-        if (!number1Flag && !number2Flag && sign == null && calcResult != 0.0F) {
-            double powCaclResult = Math.pow(Float.parseFloat(myLabel.getText()), 2);
+        labelText = myLabel.getText();
 
-            if (isWholeNumber((float) powCaclResult))
-                myLabel.setText(Integer.toString((int) powCaclResult));
-            else
-                myLabel.setText(Double.toString(powCaclResult));
+        if (labelText.equals(BIG_NUMBER)) return;
+
+        if (!number1Flag && !number2Flag && sign == null && calcResult != 0.0F) {
+            if (powFlag) return;
+
+            double powCaclResult = Math.pow(Float.parseFloat(labelText), 2);
+            String stringResult = Double.toString(powCaclResult);
+
+            try {
+                if (isWholeNumber((float) powCaclResult))
+                    myLabel.setText(Integer.toString((int) powCaclResult));
+                else
+                    myLabel.setText(stringResult);
+
+            } catch (NumberFormatException e) {
+
+                if (stringResult.length() < 17) {
+                    myLabel.setText(stringResult);
+                } else {
+                    myLabel.setText(BIG_NUMBER);
+                    powFlag = true;
+                }
+            }
 
         } else if (number1Flag && sign == null) {
-            number1 = Float.parseFloat(myLabel.getText());
+            number1 = Float.parseFloat(labelText);
 
             if (isWholeNumber(number1))
                 myLabel.setText(Integer.toString((int) (number1 * number1)));
@@ -152,7 +214,7 @@ public class Controller {
         }
     }
 
-    private float getNumber2(String labelText) {
+    private float getNumber2() {
         return switch (sign) {
             case "+" -> Float.parseFloat(labelText.split("\\+")[1]);
             case "*" -> Float.parseFloat(labelText.split("\\*")[1]);

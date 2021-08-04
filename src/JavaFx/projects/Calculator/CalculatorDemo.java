@@ -16,6 +16,9 @@ public class CalculatorDemo extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         Scene scene = new Scene(root);
 
+        String css = this.getClass().getResource("app.css").toExternalForm();
+        scene.getStylesheets().add(css);
+
         Image windowIcon = new Image(new File(
                 "src/JavaFx/projects/Calculator/images/calc.png").toURI().toString());
         stage.getIcons().add(windowIcon);
