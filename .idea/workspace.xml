@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad37f488-cab2-4c9a-8fc2-d843521a7def" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaFx.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/CalculatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/images/calc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Calculator/CalculatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Calculator/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Calculator/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/images/calc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Calculator/images/calc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaFx/projects/Calculator/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Calculator/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +44,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-16/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
