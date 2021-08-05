@@ -1,12 +1,9 @@
-package JavaFx.projects.Calculator;
+package JavaFx.Calculator;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-
-import java.util.Arrays;
 
 public class Controller {
 
@@ -48,7 +45,6 @@ public class Controller {
             cleanLabel = false;
             powFlag = false;
 
-        // 1.0 + 2.0 ; 1.0 * . ; 1.0 + 2..
         } else {
             String[] labelTextArray;
 
@@ -108,6 +104,11 @@ public class Controller {
             }
 
             if (sign != null) return;
+
+            if (labelText.charAt(labelText.length() - 1) == '.') {
+                labelText += "0";
+                myLabel.setText(labelText);
+            }
 
             number1 = Float.parseFloat(labelText);
             sign = currentSign;
